@@ -407,6 +407,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const appsGrid = document.getElementById("apps-grid");
   const tabBtns = document.querySelectorAll(".tab-btn");
   const themeToggle = document.getElementById("theme-toggle");
+  const scrollToTopBtn = document.getElementById("scroll-to-top");
 
   let activeCategory = "all";
 
@@ -526,6 +527,22 @@ document.addEventListener("DOMContentLoaded", () => {
     document.documentElement.classList.toggle("dark");
     const isDark = document.documentElement.classList.contains("dark");
     localStorage.setItem("theme", isDark ? "dark" : "light");
+  });
+
+  // Scroll to Top Interaction
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      scrollToTopBtn.classList.add("show");
+    } else {
+      scrollToTopBtn.classList.remove("show");
+    }
+  });
+
+  scrollToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
   });
 
   // Init Theme and Apps
