@@ -905,7 +905,7 @@ header .nav-container {
 .contact-section {
   background-color: var(--bg-secondary);
   border-top: 1px solid var(--border-color);
-  padding: 5rem 0 2rem;
+  padding: 5rem 0 0.5rem;
   position: relative;
 }
 
@@ -1110,7 +1110,7 @@ textarea.form-control {
 footer {
   background-color: var(--bg-primary);
   border-top: 1px solid var(--border-color);
-  padding: 1.5rem 0 2.5rem;
+  padding: 0.5rem 0 2rem;
   text-align: center;
 }
 
@@ -1390,4 +1390,14 @@ footer {
 }
 .dark .stat-num.stat-status {
   color: #4ade80;
+}
+
+/* Modern Minimalistic Section Separator */
+.section-separator {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--border-color) 15%, var(--border-color) 85%, transparent);
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  opacity: 0.6;
 }
