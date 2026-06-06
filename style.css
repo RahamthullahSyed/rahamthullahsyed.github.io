@@ -1322,9 +1322,13 @@ footer {
 
 /* Footer Play Store Logo */
 .footer-play-store-logo {
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   object-fit: contain;
+  border-radius: 50%;
+  border: 2px solid var(--accent-primary);
+  padding: 3px;
+  background-color: #ffffff;
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -1336,4 +1340,13 @@ footer {
 
 .footer-logo-link:hover .footer-play-store-logo {
   transform: scale(1.1);
+}
+
+/* Play Store Button (About Section) Black Border */
+#btn-hero-store {
+  border: 2px solid #000000;
+}
+
+.dark #btn-hero-store {
+  border-color: #ffffff;
 }
