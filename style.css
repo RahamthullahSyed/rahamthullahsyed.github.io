@@ -1315,10 +1315,7 @@ footer {
 
 /* Play Store Button Icon */
 .play-store-btn-icon {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 1px solid var(--border-color);
-  background-color: #ffffff;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
 }
