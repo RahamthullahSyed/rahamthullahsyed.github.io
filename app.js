@@ -535,12 +535,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function scrollSpy() {
     let currentSection = "";
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop;
-      if (window.scrollY >= (sectionTop - 250)) {
-        currentSection = section.getAttribute("id");
-      }
-    });
+    
+    // Check if scrolled to the very bottom of the page
+    const isAtBottom = (window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 50;
+    
+    if (isAtBottom) {
+      currentSection = "contact";
+    } else {
+      sections.forEach(section => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top <= 160 && rect.bottom >= 160) {
+          currentSection = section.getAttribute("id");
+        }
+      });
+    }
 
     navLinks.forEach(link => {
       link.classList.remove("active");

@@ -179,7 +179,7 @@ header .nav-container {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--accent-primary);
+  background: linear-gradient(to right, var(--accent-primary), var(--accent-secondary));
   transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
