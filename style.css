@@ -905,7 +905,7 @@ header .nav-container {
 .contact-section {
   background-color: var(--bg-secondary);
   border-top: 1px solid var(--border-color);
-  padding: 6rem 0;
+  padding: 5rem 0 2rem;
   position: relative;
 }
 
@@ -1110,7 +1110,7 @@ textarea.form-control {
 footer {
   background-color: var(--bg-primary);
   border-top: 1px solid var(--border-color);
-  padding: 3rem 0;
+  padding: 1.5rem 0 2.5rem;
   text-align: center;
 }
 
