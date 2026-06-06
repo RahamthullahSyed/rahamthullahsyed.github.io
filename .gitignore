@@ -1,0 +1,24 @@
+# Scratch & Scraper files
+build_clean_data.js
+dump_html.js
+fetch_packages.js
+find_feature_graphic.js
+find_images.js
+test_category.js
+test_extraction.js
+parse_dev_page.js
+get_dev_page_images.js
+inspect_card.js
+dev_page.html
+card_snippet.html
+play_store_data.json
+scraped_categories.json
+test.html
+test_parse.js
+
+# Dependency files
+node_modules/
+package-lock.json
+package.json
+.DS_Store
+Thumbs.db
