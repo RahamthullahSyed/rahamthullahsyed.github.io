@@ -1342,11 +1342,26 @@ footer {
   transform: scale(1.1);
 }
 
-/* Play Store Button (About Section) Black Border */
+/* Play Store Button (About Section) Styles */
 #btn-hero-store {
+  background-color: #4c1d95;
+  color: #ffffff;
   border: 2px solid #000000;
 }
 
+#btn-hero-store:hover {
+  background-color: #3b0764;
+  transform: translateY(-2px);
+}
+
 .dark #btn-hero-store {
+  background-color: #f1f5f9;
+  color: #0f172a;
   border-color: #ffffff;
+}
+
+.dark #btn-hero-store:hover {
+  background-color: #e2e8f0;
+  color: #000000;
+  transform: translateY(-2px);
 }
