@@ -529,6 +529,30 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("theme", isDark ? "dark" : "light");
   });
 
+  // Scroll Spy for Navigation Links
+  const sections = document.querySelectorAll("section[id]");
+  const navLinks = document.querySelectorAll(".nav-links a.nav-link");
+
+  function scrollSpy() {
+    let currentSection = "";
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      if (window.scrollY >= (sectionTop - 250)) {
+        currentSection = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      const href = link.getAttribute("href");
+      if (href === `#${currentSection}` || (currentSection === "" && href === "#about")) {
+        link.classList.add("active");
+      }
+    });
+  }
+
+  window.addEventListener("scroll", scrollSpy);
+
   // Scroll to Top Interaction
   window.addEventListener("scroll", () => {
     if (window.scrollY > 300) {
@@ -545,7 +569,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Init Theme and Apps
+  // Init Theme, Scroll Spy, and Apps
   initTheme();
+  scrollSpy();
   renderApps("all");
 });
