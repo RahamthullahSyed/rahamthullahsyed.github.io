@@ -631,9 +631,9 @@ header .nav-container {
 }
 
 .app-card:hover {
-  transform: translateY(-6px);
-  box-shadow: var(--card-shadow-hover);
-  border-color: rgba(234, 88, 12, 0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px -8px rgba(234, 88, 12, 0.18);
+  border-color: var(--accent-primary);
 }
 
 /* Card Banner (first screenshot) */
@@ -1235,13 +1235,28 @@ footer {
 }
 
 /* Mobile-first Nav adjustments for ultra-small screens */
-@media(max-width: 480px) {
+@media(max-width: 600px) {
   header {
-    height: 70px;
+    height: auto;
+    padding: 0.75rem 0;
+  }
+  header .nav-container {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+  }
+  .logo-link {
+    justify-content: center;
+    width: 100%;
   }
   .nav-links {
-    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    gap: 1.25rem;
   }
+}
+
+@media(max-width: 480px) {
   .logo-text {
     font-size: 1.1rem;
   }
