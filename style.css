@@ -21,6 +21,11 @@
   --accent-secondary: #f97316;
   --accent-glow: rgba(234, 88, 12, 0.15);
 
+  /* Hero badge green theme */
+  --badge-green-bg: rgba(21, 128, 61, 0.08);
+  --badge-green-color: #166534;
+  --badge-green-border: rgba(21, 128, 61, 0.15);
+
   --card-bg: rgba(255, 255, 255, 0.75);
   --card-border: rgba(255, 255, 255, 0.6);
   --card-shadow: 0 10px 30px -10px rgba(148, 163, 184, 0.2);
@@ -49,6 +54,11 @@
   --accent-primary: #f97316;
   --accent-secondary: #fdba74;
   --accent-glow: rgba(249, 115, 22, 0.25);
+
+  /* Hero badge green theme dark mode */
+  --badge-green-bg: rgba(74, 222, 128, 0.1);
+  --badge-green-color: #4ade80;
+  --badge-green-border: rgba(74, 222, 128, 0.2);
 
   --card-bg: rgba(15, 23, 42, 0.6);
   --card-border: rgba(255, 255, 255, 0.05);
@@ -285,9 +295,9 @@ header .nav-container {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: var(--accent-glow);
-  color: var(--accent-primary);
-  border: 1px solid rgba(234, 88, 12, 0.2);
+  background-color: var(--badge-green-bg);
+  color: var(--badge-green-color);
+  border: 1px solid var(--badge-green-border);
   padding: 0.4rem 1rem;
   border-radius: 100px;
   font-size: 0.85rem;
@@ -295,14 +305,14 @@ header .nav-container {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
-  box-shadow: 0 4px 20px -5px rgba(234, 88, 12, 0.15);
+  box-shadow: 0 4px 20px -5px var(--badge-green-bg);
 }
 
 .hero-badge-dot {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: var(--accent-primary);
+  background-color: var(--badge-green-color);
   animation: pulse-dot 2s infinite;
 }
 
