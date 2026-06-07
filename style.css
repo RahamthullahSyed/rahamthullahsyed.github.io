@@ -73,6 +73,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -613,7 +614,7 @@ header .nav-container {
 
 .apps-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 2rem;
 }
 
@@ -1272,6 +1273,15 @@ footer {
   }
   .hero-desc {
     font-size: 1.05rem;
+  }
+  .contact-card-panel {
+    padding: 2.5rem 1rem;
+  }
+  .contact-email-link {
+    font-size: 0.9rem;
+    padding: 0.8rem 1.25rem;
+    width: 100%;
+    justify-content: center;
   }
 }
 
