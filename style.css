@@ -905,8 +905,9 @@ header .nav-container {
 .contact-section {
   background-color: var(--bg-secondary);
   border-top: 1px solid var(--border-color);
-  padding: 5rem 0 0.5rem;
+  padding: 2rem 0;
   position: relative;
+  text-align: center;
 }
 
 .contact-grid {
@@ -1043,12 +1044,7 @@ textarea.form-control {
   opacity: 1;
 }
 
-/* Reach Us Section styling */
-.contact-section {
-  padding: 4rem 0 6rem;
-  position: relative;
-  text-align: center;
-}
+
 
 .contact-card-panel {
   background: var(--card-bg);
