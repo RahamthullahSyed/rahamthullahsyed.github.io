@@ -562,13 +562,17 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("scroll", scrollSpy);
 
   // Scroll to Top Interaction
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
+  const handleScroll = () => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop || window.scrollY || 0;
+    if (scrollTop > 300) {
       scrollToTopBtn.classList.add("show");
     } else {
       scrollToTopBtn.classList.remove("show");
     }
-  });
+  };
+
+  window.addEventListener("scroll", handleScroll, { passive: true });
+  window.addEventListener("touchmove", handleScroll, { passive: true });
 
   scrollToTopBtn.addEventListener("click", () => {
     window.scrollTo({
