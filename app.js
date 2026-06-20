@@ -547,6 +547,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const matchesSearch = !query || 
         app.title.toLowerCase().includes(query) ||
         app.shortDesc.toLowerCase().includes(query) ||
+        (app.longDesc && app.longDesc.toLowerCase().includes(query)) ||
         app.category.toLowerCase().includes(query) ||
         (app.features && app.features.some(f => f.toLowerCase().includes(query)));
       return matchesCategory && matchesSearch;
