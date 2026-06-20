@@ -341,23 +341,23 @@ const appsData = [
     "screenshots": []
   },
   {
-    "id": "galaxy-shooter-space-attack",
-    "title": "Galaxy Shooter Space Attack",
-    "package": "com.sssgames.galaxy_shooter_space_attack",
-    "category": "adventure",
-    "shortDesc": "Retro arcade space combat. Upgrade your ship and defend the galaxy.",
-    "longDesc": "Relive the golden age of arcade cabinets with Galaxy Shooter. Pilot an advanced space fighter against relentless waves of alien swarms, dodge incoming bullet hells, and defeat massive screen-filling bosses. Collect scrap metal to customize and upgrade your shields, weapons, and missiles.",
+    "id": "puzzle",
+    "title": "Color Ball Sort Puzzle Game",
+    "package": "com.sssgames.color.ball.sort.puzzle",
+    "category": "puzzle",
+    "shortDesc": "Sort colorful balls in tubes to solve hundreds of relaxing logic puzzle levels.",
+    "longDesc": "Color Ball Sort Puzzle Game is a calming yet challenging logic game designed to train your brain. Sort colourful balls into tubes so that each tube contains only one color. Experience smooth physics animations, responsive touch controls, and clean interfaces that make brain-teasing gameplay highly satisfying.",
     "features": [
-      "Fast-paced shoot 'em up (shmup) retro arcade gameplay",
-      "Multiple upgrade trees for blasters, lasers, and side-drones",
-      "Epic boss fights with diverse, challenging attack patterns",
-      "Hypnotic synth-wave soundtrack and gorgeous neon particle effects"
+      "Hundreds of challenging levels with a progressive difficulty curve",
+      "Calming visual aesthetics and smooth ball-rolling physics animations",
+      "Simple one-touch controls with toggleable haptic vibration feedback",
+      "Full offline support — play anytime without requiring Wi-Fi"
     ],
-    "badge": "Arcade",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sssgames.galaxy_shooter_space_attack",
-    "color": "from-indigo-600 to-purple-800",
-    "iconUrl": "https://play-lh.googleusercontent.com/t6e_kaRkBbR8qzj2CzfFIuvRCMYdmYbbhVV6N6bl8JaL-DYNGrZxS84Elx5muMJ8jO8q5c47aigTCT-eCgY=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/13JIcnrYkxeQd2lFjBb44G-uWqQ4yReRCpDGvaqqbnzgaM1lAg87DSIZB1cBIPkH1ABb38dLWkvo12JOPd5u6g=w832-h470-rw",
+    "badge": "Calming",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sssgames.color.ball.sort.puzzle",
+    "color": "from-emerald-400 to-teal-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/vZThXBEnS_VAv2PTwy3IM3b2_7a_s_1lp3-ScnVKFaiA6H4umwZnSm9zgS1_-AJl0IkHlK2y1ZRtwQzxWmOb2FQ=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/b-cVyjSp6h6ptSmEPYiHaqrmuFPIopjokejkS0sDczEhN6TsRtOSdRvM6-kT8NAMk7H3v6JADXbY86S9pnnUUQ=w832-h470-rw",
     "screenshots": []
   },
   {
@@ -381,23 +381,23 @@ const appsData = [
     "screenshots": []
   },
   {
-    "id": "aerochallenge",
-    "title": "Aero Challenge",
-    "package": "com.play.aerochallenge",
-    "category": "casual",
-    "shortDesc": "Steer supersonic jets through challenging obstacle courses.",
-    "longDesc": "Aero Challenge tests your reflexes as you pilot high-speed aircraft through narrow canyons, rotating hoops, and shifting structural hazards. Keep your speed high to beat the record times, but stay focused—a single scrape can send your fighter jet down in flames.",
+    "id": "floodit",
+    "title": "Flood-It! Brain Puzzle Game",
+    "package": "com.play.floodit",
+    "category": "puzzle",
+    "shortDesc": "Tap colours to flood the board and fill the grid in the fewest moves possible.",
+    "longDesc": "Flood-It! Brain Puzzle Game challenges your strategic planning and logical thinking. Starting from the top-left corner, select colors to flood adjacent tiles and cover the entire board in a single uniform color. Achieve victory before you run out of moves, and test your skills across multiple grid sizes.",
     "features": [
-      "Responsive accelerometer and touch steering controls",
-      "Multiple jet fighters to unlock, each with unique handling profiles",
-      "Time-trials and structural survival modes",
-      "Immersive 3D environments with dynamic weather and lighting"
+      "Three difficulty levels: Easy (8x8), Medium (12x12), and Hard (16x16)",
+      "Clean, colorful interface and eye care mode to reduce strain",
+      "Smooth, high-performance gameplay optimized for all devices",
+      "Quick restart and satisfying win animations for repeatable play"
     ],
-    "badge": "Supersonic",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.aerochallenge",
-    "color": "from-sky-500 to-indigo-500",
-    "iconUrl": "https://play-lh.googleusercontent.com/yKLmNNVSs5mwtQMLXowxoanQumtUrlkX1XMbIu1rZKdJEgLndKfYne8deAaQqpEpz9IfrNdTLuFrr7AW23Xxjw=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/rM_vo5LqqDDFMRyZFY30nS0v4oiN5Hg1qJd0mEhq--FzeTHcYqOELVVimaUuU8tRgyuBf3PStGnrQsbV_OOdfaU=w832-h470-rw",
+    "badge": "Strategy",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.floodit",
+    "color": "from-rose-500 to-pink-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/mO3FPBix8DuFJVCwEP_mgOuiXBVM80mHQ_eJ0HoUZUyv7qZaSf72uFt1iHG0VlGXNmvScomoB4V9-dpVHSIzwbM=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/mOhEvLS55YpN0eMNZrhB0utk6F-i4QOn99nWwpNLb_BswR8LYJne-wg_tNZ-8I1RaSoAwj94vJv_405hXSUJJdc=w832-h470-rw",
     "screenshots": []
   }
 ];
