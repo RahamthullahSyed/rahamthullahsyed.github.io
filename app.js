@@ -508,22 +508,71 @@ document.addEventListener("DOMContentLoaded", () => {
   const tabBtns = document.querySelectorAll(".tab-btn");
   const themeToggle = document.getElementById("theme-toggle");
   const scrollToTopBtn = document.getElementById("scroll-to-top");
+  const searchInput = document.getElementById("search-input");
+  const searchClearBtn = document.getElementById("search-clear-btn");
 
   let activeCategory = "all";
+
+  // Escape HTML helper to prevent XSS issues when rendering user search query
+  function escapeHtml(string) {
+    return String(string).replace(/[&<>"']/g, function (s) {
+      return {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      }[s];
+    });
+  }
 
   // Render Apps list
   function renderApps(category = "all") {
     appsGrid.innerHTML = "";
-    const filteredApps = category === "all" 
-      ? appsData 
-      : appsData.filter(app => app.category === category);
+    
+    const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
+    
+    // Toggle search clear button visibility
+    if (searchClearBtn) {
+      if (query.length > 0) {
+        searchClearBtn.classList.add("show");
+      } else {
+        searchClearBtn.classList.remove("show");
+      }
+    }
+
+    const filteredApps = appsData.filter(app => {
+      const matchesCategory = category === "all" || app.category === category;
+      const matchesSearch = !query || 
+        app.title.toLowerCase().includes(query) ||
+        app.shortDesc.toLowerCase().includes(query) ||
+        app.category.toLowerCase().includes(query) ||
+        (app.features && app.features.some(f => f.toLowerCase().includes(query)));
+      return matchesCategory && matchesSearch;
+    });
 
     if (filteredApps.length === 0) {
-      appsGrid.innerHTML = `
-        <div class="col-span-full text-center py-16 text-gray-500">
-          <p class="text-lg font-medium">No apps found in this category.</p>
-        </div>
-      `;
+      if (query) {
+        appsGrid.innerHTML = `
+          <div class="col-span-full no-results-container">
+            <div class="no-results-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                <line x1="8" y1="11" x2="14" y2="11"></line>
+              </svg>
+            </div>
+            <h3 class="no-results-title">No apps match your search</h3>
+            <p class="no-results-text">We couldn't find any apps matching "${escapeHtml(query)}". Try checking your spelling or adjusting your filters.</p>
+          </div>
+        `;
+      } else {
+        appsGrid.innerHTML = `
+          <div class="col-span-full text-center py-16 text-gray-500">
+            <p class="text-lg font-medium">No apps found in this category.</p>
+          </div>
+        `;
+      }
       return;
     }
 
@@ -610,6 +659,22 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
+  // Search Input Handler
+  if (searchInput) {
+    searchInput.addEventListener("input", () => {
+      renderApps(activeCategory);
+    });
+  }
+
+  // Clear Search Action
+  if (searchClearBtn) {
+    searchClearBtn.addEventListener("click", () => {
+      searchInput.value = "";
+      renderApps(activeCategory);
+      searchInput.focus();
+    });
+  }
 
   // Theme Toggler
   function initTheme() {
