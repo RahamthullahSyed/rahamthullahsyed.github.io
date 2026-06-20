@@ -439,6 +439,66 @@ const appsData = [
     "iconUrl": "https://play-lh.googleusercontent.com/yKLmNNVSs5mwtQMLXowxoanQumtUrlkX1XMbIu1rZKdJEgLndKfYne8deAaQqpEpz9IfrNdTLuFrr7AW23Xxjw=s180-rw",
     "featureGraphicUrl": "https://play-lh.googleusercontent.com/rM_vo5LqqDDFMRyZFY30nS0v4oiN5Hg1qJd0mEhq--FzeTHcYqOELVVimaUuU8tRgyuBf3PStGnrQsbV_OOdfaU=w832-h470-rw",
     "screenshots": []
+  },
+  {
+    "id": "ridersnowman",
+    "title": "Rider Snow Man",
+    "package": "com.play.ridersnowman",
+    "category": "adventure",
+    "shortDesc": "Fun snowman riding game! Jump, collect rewards, dodge dangers, ride far.",
+    "longDesc": "Slide, jump, and ride through snowy slopes in Rider Snow Man! Help the snowman navigate tricky winter terrain, jump over dangerous obstacles, and collect frozen gems to unlock cool new gears. A delightful arcade adventure that tests your timing and reflexes in a winter wonderland.",
+    "features": [
+      "Challenging snowy tracks with physics-based jumps",
+      "Simple and intuitive one-tap timing controls",
+      "Multiple snowman characters and boards to unlock",
+      "Beautiful winter scenery and seasonal music themes"
+    ],
+    "badge": "Adventure",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.ridersnowman",
+    "color": "from-blue-400 to-indigo-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/zxn50tlpxAWzZZ86NjaVVU1Zryf474DvbHBfmfkYzZdZ-aeRoW_br-aVkjawEDSSfVDHCcTZj4aBOniD0HTnfA=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/4Klqe2iUPNlog_SpeD4jWeJxN7K4GWeS4FAdDnWj-_5-EeRgu30Kz0Dv5Ejbv_yC86cLg6FOBraM-TlOehM5FA=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "puzzle2048",
+    "title": "2048 Brain Puzzle Game",
+    "package": "com.play.puzzle2048",
+    "category": "puzzle",
+    "shortDesc": "Classic 2048 puzzle game — merge numbers & train your brain!",
+    "longDesc": "2048 Brain Puzzle Game is the ultimate grid-merging challenge. Swipe to move numbered tiles across the grid. When two tiles with the same number touch, they merge into one! Reach the legendary 2048 tile and beyond to prove your arithmetic logic and strategic planning.",
+    "features": [
+      "Classic 4x4 grid gameplay with smooth slide animations",
+      "Undo button and auto-save options to preserve high-scores",
+      "Minimalist visual style with eye-pleasing warm color themes",
+      "Complete offline support to train your brain anywhere"
+    ],
+    "badge": "Brain",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.puzzle2048",
+    "color": "from-orange-400 to-amber-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/Sw2pUs82e8Axoga4lsmzZvQwm_fS52B5I5AFu3XbYbL-1vKQjayyIsnL-gET_SQng8ozCghE_TfD6jo2iQmTFQ=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Hgn5BorkMP8EUXyuFo-WejqDYv-n2KOO4tbILAXGGF6P1M6kZT6WpnvxC3ZDUK8J4nb6BQ8-DoWz8mOs4BasEw=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "ball2048drop",
+    "title": "2048 Ball Drop: Merge & Relax",
+    "package": "com.play.relaxing.ball2048drop",
+    "category": "puzzle",
+    "shortDesc": "Drop balls, merge 2048, and relax with satisfying physics puzzle fun!",
+    "longDesc": "Merge numbers in 3D physics space! In 2048 Ball Drop, aim and release numbered balls into the container. When identical balls collide, they merge into a larger ball with double the value. Plan your bounces, watch out for the fill line, and enjoy a satisfying, zen-like physics puzzle.",
+    "features": [
+      "Tactile 3D-styled physics and satisfying bounce dynamics",
+      "Smooth controls to aim, drop, and merge numbers",
+      "Sleek colorful balls with soft neon glow accents",
+      "Relaxing ASMR sounds and no time limits pressure"
+    ],
+    "badge": "Relaxing",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.relaxing.ball2048drop",
+    "color": "from-violet-500 to-indigo-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/hSxQmuGY-uFRzimxp8Inrlirci1jGJNaApJzWI8FWvx0XWVSs_DWH4rqcTT3Yjvzj_igL9qog5aFwT0vxMuzeQ=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/1_y60yF6Qpp5MzRATa45n6juTj1dqkrX2GSLxu-474-7TDVt4bbUzdqgZo--iJL1GHzXIdwmaq-9Dl_eVm2M1g=w832-h470-rw",
+    "screenshots": []
   }
 ];
 
