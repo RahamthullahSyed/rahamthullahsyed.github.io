@@ -1467,21 +1467,39 @@ footer {
   transform: scale(1.02);
 }
 
-.search-icon {
-  position: absolute;
-  left: 1.25rem;
+.search-submit-btn {
+  background: transparent;
+  border: none;
   color: var(--text-secondary);
-  pointer-events: none;
-  transition: color 0.3s ease;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 0.25rem;
+  transition: all 0.3s ease;
 }
 
-.search-wrapper:focus-within .search-icon {
+.search-submit-btn:hover {
   color: var(--accent-primary);
+  background-color: var(--bg-tertiary);
+  transform: scale(1.1);
+}
+
+.search-wrapper:focus-within .search-submit-btn {
+  color: var(--accent-primary);
+}
+
+.search-icon {
+  transition: color 0.3s ease;
 }
 
 #search-input {
   width: 100%;
-  padding: 0.65rem 1rem 0.65rem 2.75rem;
+  padding: 0.65rem 0.75rem;
   border: none;
   background: transparent;
   color: var(--text-primary);

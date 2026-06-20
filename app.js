@@ -510,6 +510,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const scrollToTopBtn = document.getElementById("scroll-to-top");
   const searchInput = document.getElementById("search-input");
   const searchClearBtn = document.getElementById("search-clear-btn");
+  const searchForm = document.getElementById("search-form");
 
   let activeCategory = "all";
 
@@ -659,6 +660,14 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
+  // Search Form Submit Handler (prevents page reload on enter and triggers search)
+  if (searchForm) {
+    searchForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      renderApps(activeCategory);
+    });
+  }
 
   // Search Input Handler
   if (searchInput) {
