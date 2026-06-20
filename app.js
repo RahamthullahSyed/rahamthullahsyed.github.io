@@ -399,6 +399,46 @@ const appsData = [
     "iconUrl": "https://play-lh.googleusercontent.com/mO3FPBix8DuFJVCwEP_mgOuiXBVM80mHQ_eJ0HoUZUyv7qZaSf72uFt1iHG0VlGXNmvScomoB4V9-dpVHSIzwbM=s180-rw",
     "featureGraphicUrl": "https://play-lh.googleusercontent.com/mOhEvLS55YpN0eMNZrhB0utk6F-i4QOn99nWwpNLb_BswR8LYJne-wg_tNZ-8I1RaSoAwj94vJv_405hXSUJJdc=w832-h470-rw",
     "screenshots": []
+  },
+  {
+    "id": "galaxy-shooter-space-attack",
+    "title": "Galaxy Shooter Space Attack",
+    "package": "com.sssgames.galaxy_shooter_space_attack",
+    "category": "adventure",
+    "shortDesc": "Retro arcade space combat. Upgrade your ship and defend the galaxy.",
+    "longDesc": "Relive the golden age of arcade cabinets with Galaxy Shooter. Pilot an advanced space fighter against relentless waves of alien swarms, dodge incoming bullet hells, and defeat massive screen-filling bosses. Collect scrap metal to customize and upgrade your shields, weapons, and missiles.",
+    "features": [
+      "Fast-paced shoot 'em up (shmup) retro arcade gameplay",
+      "Multiple upgrade trees for blasters, lasers, and side-drones",
+      "Epic boss fights with diverse, challenging attack patterns",
+      "Hypnotic synth-wave soundtrack and gorgeous neon particle effects"
+    ],
+    "badge": "Arcade",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sssgames.galaxy_shooter_space_attack",
+    "color": "from-indigo-600 to-purple-800",
+    "iconUrl": "https://play-lh.googleusercontent.com/t6e_kaRkBbR8qzj2CzfFIuvRCMYdmYbbhVV6N6bl8JaL-DYNGrZxS84Elx5muMJ8jO8q5c47aigTCT-eCgY=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/13JIcnrYkxeQd2lFjBb44G-uWqQ4yReRCpDGvaqqbnzgaM1lAg87DSIZB1cBIPkH1ABb38dLWkvo12JOPd5u6g=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "aerochallenge",
+    "title": "Aero Challenge",
+    "package": "com.play.aerochallenge",
+    "category": "casual",
+    "shortDesc": "Steer supersonic jets through challenging obstacle courses.",
+    "longDesc": "Aero Challenge tests your reflexes as you pilot high-speed aircraft through narrow canyons, rotating hoops, and shifting structural hazards. Keep your speed high to beat the record times, but stay focused—a single scrape can send your fighter jet down in flames.",
+    "features": [
+      "Responsive accelerometer and touch steering controls",
+      "Multiple jet fighters to unlock, each with unique handling profiles",
+      "Time-trials and structural survival modes",
+      "Immersive 3D environments with dynamic weather and lighting"
+    ],
+    "badge": "Supersonic",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.aerochallenge",
+    "color": "from-sky-500 to-indigo-500",
+    "iconUrl": "https://play-lh.googleusercontent.com/yKLmNNVSs5mwtQMLXowxoanQumtUrlkX1XMbIu1rZKdJEgLndKfYne8deAaQqpEpz9IfrNdTLuFrr7AW23Xxjw=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/rM_vo5LqqDDFMRyZFY30nS0v4oiN5Hg1qJd0mEhq--FzeTHcYqOELVVimaUuU8tRgyuBf3PStGnrQsbV_OOdfaU=w832-h470-rw",
+    "screenshots": []
   }
 ];
 
