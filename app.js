@@ -499,6 +499,46 @@ const appsData = [
     "iconUrl": "https://play-lh.googleusercontent.com/hSxQmuGY-uFRzimxp8Inrlirci1jGJNaApJzWI8FWvx0XWVSs_DWH4rqcTT3Yjvzj_igL9qog5aFwT0vxMuzeQ=s180-rw",
     "featureGraphicUrl": "https://play-lh.googleusercontent.com/1_y60yF6Qpp5MzRATa45n6juTj1dqkrX2GSLxu-474-7TDVt4bbUzdqgZo--iJL1GHzXIdwmaq-9Dl_eVm2M1g=w832-h470-rw",
     "screenshots": []
+  },
+  {
+    "id": "airhockey2player",
+    "title": "Air Hockey 2 Player Offline",
+    "package": "com.sarahgames.airhockey2player",
+    "category": "arcade",
+    "shortDesc": "Air hockey offline game with 2 player mode, neon glow & smart AI",
+    "longDesc": "Air Hockey 2 Player Offline delivers the ultimate neon tabletop air hockey arcade experience directly to your screen. Challenge your friends in local 2-player split-screen tournaments, or play against adaptive AI bots. Experience realistic physics, bright glow graphics, and satisfying collision sounds.",
+    "features": [
+      "Offline local 2-player split-screen mode",
+      "Adaptable AI with multiple difficulty settings",
+      "Bright neon glow visuals and satisfying physics",
+      "Instant match restart and quick scoreboards"
+    ],
+    "badge": "Offline",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sarahgames.airhockey2player",
+    "color": "from-pink-500 to-rose-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/XAvKPgeVdC8770BRyFUFPppaeEK_ZkwBo1ArG4YYh8xvJ32YLI7gcJTQS6D310hjHEYl51zknXNqAwO-10U64mM=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/hYejcboc4Y2n460JZViqy9TqEP8bpOT_EdQk6M4wV7uTyfnVZhCmy_gV_BCeMcvIvx4T4C9TjOI1WOiiWavR=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "tap-block-away-puzzle",
+    "title": "Tap Block Away: Maze Escape",
+    "package": "com.play.tap_block_away_puzzle",
+    "category": "puzzle",
+    "shortDesc": "Relax with 3D block puzzles! Tap arrows, rotate the cube and clear the board.",
+    "longDesc": "Tap Block Away: Maze Escape is a relaxing and brain-training 3D puzzle game. Tap the blocks to make them fly away and clear the board. However, the blocks will only fly in one direction according to the arrows, so you must rotate the cube structure carefully to find the correct clearing paths.",
+    "features": [
+      "Challenging 3D block clearing gameplay mechanics",
+      "Full 360-degree rotation of the puzzle cube",
+      "Calming background soundscapes and ASMR sound effects",
+      "Hundreds of progressive levels with colorful blocks"
+    ],
+    "badge": "3D Puzzle",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.tap_block_away_puzzle",
+    "color": "from-teal-400 to-emerald-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/w1TH4Z1lqmJYcBY_l_9Qxi4sSDa15jek5xm8hJk1UyDrYvDI230Aoc-2OGdbNGpOga3eG--pM59MgL8gRIW6=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Lc9iX4KPc1SukF6ufCUUmgbygDLcogQR_lqnlRGXUE9tG_M6asq9hcybQ4pqTO_P1m_uu4PNyytgQ2Pq0Pv1mDg=w832-h470-rw",
+    "screenshots": []
   }
 ];
 
