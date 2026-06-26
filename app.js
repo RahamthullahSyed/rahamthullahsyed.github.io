@@ -539,6 +539,26 @@ const appsData = [
     "iconUrl": "https://play-lh.googleusercontent.com/w1TH4Z1lqmJYcBY_l_9Qxi4sSDa15jek5xm8hJk1UyDrYvDI230Aoc-2OGdbNGpOga3eG--pM59MgL8gRIW6=s180-rw",
     "featureGraphicUrl": "https://play-lh.googleusercontent.com/Lc9iX4KPc1SukF6ufCUUmgbygDLcogQR_lqnlRGXUE9tG_M6asq9hcybQ4pqTO_P1m_uu4PNyytgQ2Pq0Pv1mDg=w832-h470-rw",
     "screenshots": []
+  },
+  {
+    "id": "sipcalculatordailyweeklymonthlylumpsum",
+    "title": "SIP Calculator: Daily Weekly",
+    "package": "com.sss.sipcalculatordailyweeklymonthlylumpsum",
+    "category": "finance",
+    "shortDesc": "Advanced SIP Calculator supporting daily, weekly, monthly, and yearly investment frequencies.",
+    "longDesc": "SIP Calculator: Daily Weekly is a flexible investment planner. Easily calculate Systematic Investment Plan (SIP) returns with unique daily and weekly options. Plan for long-term goals like buying a house, children's education, or building a target corpus, and use the retirement planner to estimate your required savings.",
+    "features": [
+      "Flexible SIP calculations: Daily, Weekly, Monthly, and Yearly",
+      "Lumpsum investment calculator with growth projections",
+      "Reverse Target SIP planner to achieve specific financial goals",
+      "Retirement planner with inflation adjustment toggles"
+    ],
+    "badge": "New",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sss.sipcalculatordailyweeklymonthlylumpsum",
+    "color": "from-emerald-500 to-teal-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/-GygdKZfPuQGF-Y8F768lxB-9qY41xxYs36p4APtJtsjMHHdnRx5oWQGhaHpWV9L5faTibntrn4lzhb51TZgdw=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/mysaatGKw5Y1MxRiglC3mGSGQ0BARpcfzDMQNY98C86NO5MHW9FT3oFqU-Oe39GNPtdW-j8UmfnFdfa5tE1Q=w832-h470-rw",
+    "screenshots": []
   }
 ];
 
