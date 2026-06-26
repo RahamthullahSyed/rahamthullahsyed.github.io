@@ -553,7 +553,7 @@ const appsData = [
       "Reverse Target SIP planner to achieve specific financial goals",
       "Retirement planner with inflation adjustment toggles"
     ],
-    "badge": "New",
+    "badge": "Finance",
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sss.sipcalculatordailyweeklymonthlylumpsum",
     "color": "from-emerald-500 to-teal-700",
     "iconUrl": "https://play-lh.googleusercontent.com/-GygdKZfPuQGF-Y8F768lxB-9qY41xxYs36p4APtJtsjMHHdnRx5oWQGhaHpWV9L5faTibntrn4lzhb51TZgdw=s180-rw",
