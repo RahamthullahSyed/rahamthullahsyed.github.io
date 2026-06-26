@@ -647,11 +647,6 @@ header .nav-container {
   border-color: var(--accent-primary);
 }
 
-.dark .app-card:hover {
-  box-shadow: 0 0 25px 2px rgba(56, 189, 248, 0.45), 0 10px 30px -5px rgba(0, 0, 0, 0.6);
-  border-color: #38bdf8;
-}
-
 /* Card Banner (first screenshot) */
 .app-card-banner {
   height: 160px;

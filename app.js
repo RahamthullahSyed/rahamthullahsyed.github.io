@@ -685,6 +685,24 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
 
+      // Random bright glow effect on hover
+      card.addEventListener("mouseenter", () => {
+        const hue = Math.floor(Math.random() * 360);
+        const isDark = document.documentElement.classList.contains("dark");
+        if (isDark) {
+          card.style.boxShadow = "0 0 25px 2px hsla(" + hue + ", 100%, 60%, 0.45), 0 10px 30px -5px rgba(0, 0, 0, 0.6)";
+          card.style.borderColor = "hsl(" + hue + ", 100%, 60%)";
+        } else {
+          card.style.boxShadow = "0 0 20px 2px hsla(" + hue + ", 100%, 50%, 0.25), 0 10px 25px -8px hsla(" + hue + ", 100%, 40%, 0.2)";
+          card.style.borderColor = "hsl(" + hue + ", 100%, 45%)";
+        }
+      });
+
+      card.addEventListener("mouseleave", () => {
+        card.style.boxShadow = "";
+        card.style.borderColor = "";
+      });
+
       appsGrid.appendChild(card);
     });
   }
