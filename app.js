@@ -556,8 +556,48 @@ const appsData = [
     "badge": "Finance",
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sss.sipcalculatordailyweeklymonthlylumpsum",
     "color": "from-emerald-500 to-teal-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/-GygdKZfPuQGF-Y8F768lxB-9qY41xxYs36p4APtJtsjMHHdnRx5oWQGhaHpWV9L5faTibntrn4lzhb51TZgdw=s180-rw",
+    "iconUrl": "https://play-lh.googleusercontent.com/sfrLsIWFwEGr9cU9vmFvcp6YEqfO-4y-80y14NKwZHfht9Cp2ghFaW_NoJdRyy4wtf1m0DsbROnHY58RzIXxRg=s180-rw",
     "featureGraphicUrl": "https://play-lh.googleusercontent.com/mysaatGKw5Y1MxRiglC3mGSGQ0BARpcfzDMQNY98C86NO5MHW9FT3oFqU-Oe39GNPtdW-j8UmfnFdfa5tE1Q=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "dot-connect-flow-puzzle",
+    "title": "Connect Dots: Flow Puzzle",
+    "package": "com.play.dot_connect_flow_puzzle",
+    "category": "puzzle",
+    "shortDesc": "Connect matching colored dots with flow lines to fill the board.",
+    "longDesc": "Connect Dots: Flow Puzzle is an addictive logic puzzle game. Connect matching colored dots and draw continuous paths between them to cover the entire grid. Plan your moves carefully to avoid overlapping or crossing lines, and solve puzzles across multiple grid sizes.",
+    "features": [
+      "Vibrant color matching puzzles with smooth flow lines",
+      "Multiple difficulty levels: Small, Medium, and Large grids",
+      "Hundreds of unique, brain-training puzzle levels",
+      "Full offline support with no time limit pressure"
+    ],
+    "badge": "Flow",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.dot_connect_flow_puzzle",
+    "color": "from-cyan-400 to-sky-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/RWBNC7mPR_UV22jO_gWLGZJd8g8IrQ2lg1doTgJrh01jfcvzTo-_dtR9-LstBv2lwBxw8fNCx1NQi9hlcVbWfA=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/frDBhMcGoMUZo6Po-QIY_UNzD1MWpKG1HxtMxYdmRA65HOurlSbJKmiouxDtLjbD3dfRHueDr9L-Vi3yVeqLsA=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "block-fill-one-line-puzzle",
+    "title": "Block Fill: One Line Puzzle",
+    "package": "com.play.block_fill_one_line_puzzle",
+    "category": "puzzle",
+    "shortDesc": "Draw a single continuous line to fill all block squares on the grid.",
+    "longDesc": "Block Fill: One Line Puzzle is an engaging logic game that challenges your strategic planning. Draw one continuous path to fill every block on the grid without crossing over or revisiting previously filled squares. It starts with simple grids and moves up to complex layouts.",
+    "features": [
+      "Thousands of handcrafted one-line block puzzle levels",
+      "Delightful xylophone sound effects responding to your movements",
+      "Responsive haptic vibration feedback for satisfying links",
+      "Clean, minimalist layout optimized for offline brain training"
+    ],
+    "badge": "One Line",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.block_fill_one_line_puzzle",
+    "color": "from-indigo-500 to-violet-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/3_Ug39Hm_EFbmK-sBthzuRP1izP7LAuydUQDpb5P0-ADqI1fxu0d_GuhBaTiy9PiAufbMkwM3_k-TUHBmBdp=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/-8U2PAX2FTLVfCvzJDHCR1bI6Lys8fqBwVIEeVEZCPPWBDfRNmZDaPxWih6bBW2XLZ259bYgCA42l0gsJ0Fv=w832-h470-rw",
     "screenshots": []
   }
 ];
