@@ -933,8 +933,38 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Init Theme, Scroll Spy, and Apps
+  // Counter animation function counting up from 0 to live apps total (33)
+  function animateLiveAppsCounter() {
+    const counterElements = document.querySelectorAll("#live-apps-counter, #live-apps-count, .stat-apps");
+    if (!counterElements || counterElements.length === 0) return;
+    const targetValue = appsData.length || 33;
+    const duration = 1600; // milliseconds
+    const startTime = performance.now();
+
+    function updateCounter(currentTime) {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const easeProgress = 1 - Math.pow(1 - progress, 3);
+      const currentVal = Math.floor(easeProgress * targetValue);
+
+      counterElements.forEach(el => {
+        el.textContent = currentVal;
+      });
+
+      if (progress < 1) {
+        requestAnimationFrame(updateCounter);
+      } else {
+        counterElements.forEach(el => {
+          el.textContent = targetValue;
+        });
+      }
+    }
+    requestAnimationFrame(updateCounter);
+  }
+
+  // Init Theme, Scroll Spy, Apps, and Counter Animation
   initTheme();
   scrollSpy();
   renderApps("all");
+  animateLiveAppsCounter();
 });
