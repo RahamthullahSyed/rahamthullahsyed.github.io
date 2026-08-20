@@ -767,10 +767,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <p class="app-desc">${app.shortDesc}</p>
             <div class="app-card-footer-new">
               <a href="${app.playStoreUrl}" target="_blank" rel="noopener noreferrer" class="view-details-btn">
-                View Details
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <line x1="5" y1="12" x2="19" y2="12"></line>
-                  <polyline points="12 5 19 12 12 19"></polyline>
+                Get on Google Play
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L18.81,13.12C19.46,12.47 19.46,11.53 18.81,10.88L16.81,8.88L14.41,11.28L16.81,15.12M14.41,12.72L4.69,22.44C4.85,22.48 5.03,22.5 5.21,22.5C5.7,22.5 6.17,22.28 6.5,21.92L14.41,12.72M14.41,11.28L6.5,2.08C6.17,1.72 5.7,1.5 5.21,1.5C5.03,1.5 4.85,1.52 4.69,1.56L14.41,11.28Z"/>
                 </svg>
               </a>
             </div>
