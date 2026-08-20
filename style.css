@@ -114,7 +114,7 @@ button, input, textarea {
 /* Utility Layouts */
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1360px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -710,15 +710,15 @@ header .nav-container {
 
 .apps-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 2.25rem;
 }
 
 /* Individual App Card Design */
 .app-card {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
-  border-radius: 20px;
+  border-radius: 24px;
   overflow: hidden;
   box-shadow: var(--card-shadow);
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease;
@@ -733,12 +733,13 @@ header .nav-container {
   border-color: var(--accent-primary);
 }
 
-/* Card Banner (first screenshot) */
+/* Card Banner (first screenshot / feature graphic) */
 .app-card-banner {
-  height: 160px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
   background-size: cover;
   background-position: center;
-  width: 100%;
   border-bottom: 1px solid var(--border-color);
   background-repeat: no-repeat;
 }
@@ -1683,4 +1684,11 @@ footer {
   max-width: 320px;
   margin: 0 auto;
   line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .apps-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
