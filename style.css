@@ -114,7 +114,7 @@ button, input, textarea {
 /* Utility Layouts */
 .container {
   width: 100%;
-  max-width: 1360px;
+  max-width: 1480px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -400,83 +400,116 @@ header .nav-container {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1.25rem 2.25rem;
+  padding: 1.5rem 3.25rem;
   background: var(--card-bg);
   border: 2px solid var(--accent-primary);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
-  border-radius: 28px;
-  box-shadow: 0 12px 35px -5px rgba(168, 85, 247, 0.4), 0 0 25px 2px rgba(236, 72, 153, 0.25);
-  margin-bottom: 1.75rem;
+  border-radius: 32px;
+  box-shadow: 0 15px 45px -5px rgba(168, 85, 247, 0.45), 0 0 35px 4px rgba(236, 72, 153, 0.3);
+  margin-bottom: 2rem;
   position: relative;
-  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   animation: floatHeroBadge 4s ease-in-out infinite alternate;
   z-index: 2;
+  overflow: hidden;
+}
+
+.live-apps-hero-badge::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.15) 0%, rgba(236, 72, 153, 0.05) 50%, transparent 70%);
+  animation: rotateGlow 10s linear infinite;
+  pointer-events: none;
+  z-index: -1;
+}
+
+@keyframes rotateGlow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 @keyframes floatHeroBadge {
   0% { transform: translateY(0); }
-  100% { transform: translateY(-8px); }
+  100% { transform: translateY(-10px); }
 }
 
 .live-apps-hero-badge:hover {
-  transform: translateY(-10px) scale(1.04);
-  box-shadow: 0 20px 45px -5px rgba(168, 85, 247, 0.6), 0 0 35px 5px rgba(236, 72, 153, 0.4);
+  transform: translateY(-12px) scale(1.05);
+  box-shadow: 0 25px 55px -5px rgba(168, 85, 247, 0.65), 0 0 45px 8px rgba(236, 72, 153, 0.45);
 }
 
 .live-badge-header {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.25rem;
+  gap: 0.6rem;
+  margin-bottom: 0.35rem;
 }
 
 .pulse-live-dot {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background-color: #22c55e;
-  box-shadow: 0 0 10px #22c55e;
+  box-shadow: 0 0 12px #22c55e;
   animation: liveDotPulse 1.8s infinite;
 }
 
 @keyframes liveDotPulse {
-  0% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.8); }
-  70% { transform: scale(1.2); box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); }
+  0% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.9); }
+  70% { transform: scale(1.25); box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
   100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
 }
 
 .live-badge-status-text {
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #22c55e;
 }
 
 .live-counter-highlight {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
+  gap: 0.75rem;
 }
 
 .hero-live-counter {
-  font-size: 3.75rem;
+  font-size: 4.5rem;
   font-weight: 900;
   line-height: 1;
-  letter-spacing: -0.03em;
-  background: linear-gradient(135deg, #a855f7 0%, #ec4899 50%, #f59e0b 100%);
+  letter-spacing: -0.04em;
+  background: linear-gradient(135deg, #a855f7 0%, #ec4899 45%, #f59e0b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 4px 15px rgba(168, 85, 247, 0.3));
+}
+
+.live-counter-accent-label {
+  font-size: 0.85rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 0.75rem;
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(236, 72, 153, 0.2));
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  border-radius: 8px;
+  color: var(--accent-primary);
+  text-transform: uppercase;
 }
 
 .hero-live-label {
-  font-size: 0.85rem;
-  font-weight: 700;
+  font-size: 0.9rem;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: var(--text-secondary);
-  margin-top: 0.25rem;
+  margin-top: 0.4rem;
 }
 
 .visual-backdrop {
@@ -710,8 +743,8 @@ header .nav-container {
 
 .apps-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  gap: 2.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: 2.5rem;
 }
 
 /* Individual App Card Design */
