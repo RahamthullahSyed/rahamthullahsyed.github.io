@@ -556,7 +556,7 @@ const appsData = [
     "badge": "Finance",
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sss.sipcalculatordailyweeklymonthlylumpsum",
     "color": "from-emerald-500 to-teal-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/sfrLsIWFwEGr9cU9vmFvcp6YEqfO-4y-80y14NKwZHfht9Cp2ghFaW_NoJdRyy4wtf1m0DsbROnHY58RzIXxRg=s180-rw",
+    "iconUrl": "https://play-lh.googleusercontent.com/HAlMb0pq7StXpqVAY-R0mqzVFr5-1cprYsW-P_wnkSQHRljdBaAJ7QEX8YA0pJwEvGKMgsT6WfgqWJvVq5zwHA=s180-rw",
     "featureGraphicUrl": "https://play-lh.googleusercontent.com/mysaatGKw5Y1MxRiglC3mGSGQ0BARpcfzDMQNY98C86NO5MHW9FT3oFqU-Oe39GNPtdW-j8UmfnFdfa5tE1Q=w832-h470-rw",
     "screenshots": []
   },
@@ -598,6 +598,66 @@ const appsData = [
     "color": "from-indigo-500 to-violet-700",
     "iconUrl": "https://play-lh.googleusercontent.com/3_Ug39Hm_EFbmK-sBthzuRP1izP7LAuydUQDpb5P0-ADqI1fxu0d_GuhBaTiy9PiAufbMkwM3_k-TUHBmBdp=s180-rw",
     "featureGraphicUrl": "https://play-lh.googleusercontent.com/-8U2PAX2FTLVfCvzJDHCR1bI6Lys8fqBwVIEeVEZCPPWBDfRNmZDaPxWih6bBW2XLZ259bYgCA42l0gsJ0Fv=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "popitrelaxinggame",
+    "title": "Pop It! Relaxing Game",
+    "package": "com.play.popitrelaxinggame",
+    "category": "casual",
+    "shortDesc": "Pop satisfying bubbles in relaxing fidget toys with smooth ASMR sound effects.",
+    "longDesc": "Pop It! Relaxing Game is the ultimate anti-stress fidget toy experience designed to help you unwind and relax. Enjoy beautifully designed silicone pop it toys with realistic bubble pressing physics, smooth pop animations, and calming ASMR audio.",
+    "features": [
+      "Realistic bubble pressing physics with smooth pop animations",
+      "Variety of real-world shapes: Heart, Star, Octagon, and Triangle",
+      "Calming ASMR audio feedback with multi-touch support",
+      "Full offline gameplay with endless flip and replay fun"
+    ],
+    "badge": "ASMR",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.popitrelaxinggame",
+    "color": "from-purple-500 to-pink-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/ELqB0kLaA2ekycwuy_xaTV3A9lCBC6it9Caqw9d7p14oYIgeaycnN5JOaafGqDRHojaa5olYsftTeb9Q3UBY=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/on6pubTMwkcfLx5bYheHQlkxtLIQXX2VH3eXmvfmp2giAUZ7cthRK9cKs5Jx_UO7fjuthObAXKcnFv8_Pqiz8cQ=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "slidingnumberpuzzle",
+    "title": "Classic Sliding Number Puzzle",
+    "package": "com.play.slidingnumberpuzzle",
+    "category": "puzzle",
+    "shortDesc": "Classic wooden sliding number puzzle challenge with smooth offline gameplay.",
+    "longDesc": "Classic Sliding Number Puzzle brings the timeless sliding tile challenge to your fingertips. Rearrange the numbered wooden tiles into the correct order by sliding them into the empty space. Complete each puzzle in the fewest moves to sharpen your logical thinking.",
+    "features": [
+      "Classic sliding tile gameplay with smooth responsive controls",
+      "Multiple board sizes and difficulty levels from Easy to Expert",
+      "Beautiful wooden tile design with intelligent solvable shuffle",
+      "Move counter and timer tracking with full offline support"
+    ],
+    "badge": "Classic",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.slidingnumberpuzzle",
+    "color": "from-amber-600 to-yellow-800",
+    "iconUrl": "https://play-lh.googleusercontent.com/hvS_AQ2Qp4gVm67iHiHJI22yYV_Fl885wcAHSCEvSySKy73cGK6Fi_M2j2kmDMLCeSoqj3m-nhUjurcTRdn51w=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/8nLgZaPtGJ4exTN4UOlDx8W_ZFdqCVQLKbMzi2IANIWg_6H1y0paZJVcARLG04vpfvqkPbhDecOtiSkLZCyEJw=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "dino-run",
+    "title": "Dino Run!: Desert Adventure",
+    "package": "com.play.dino_run",
+    "category": "arcade",
+    "shortDesc": "Run, jump, and dodge obstacles in an endless desert dinosaur runner adventure.",
+    "longDesc": "Dino Run!: Desert Adventure is an action-packed endless runner inspired by the classic offline Chrome Dinosaur game. Take control of a brave T-Rex racing across a vibrant desert packed with cacti and pterodactyls. Master double jumps and timing to set new high scores.",
+    "features": [
+      "Endless runner gameplay inspired by the classic Chrome Dino game",
+      "Desert-themed environments with cacti and flying obstacles",
+      "Smooth dinosaur animations with intuitive double-jump mechanics",
+      "Offline arcade gameplay with progressive speed challenge"
+    ],
+    "badge": "Runner",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.dino_run",
+    "color": "from-amber-500 to-orange-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/l8e9A0PzbwhtZkqIwuzZMlidCU_NbsbgP_q6w1kBSMoPWcekiRvsrrXN8AXPCJDq9bqXjGQfsZjJaiFSJkb1=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Bj1w_t7ozOuf0wzVSaMKL12C1E_0hpzfCFxwAp8El8__W1OOBL3CsLxZuRGWzU_Ub2Anli1iefBmlISKkCTEywI=w832-h470-rw",
     "screenshots": []
   }
 ];
