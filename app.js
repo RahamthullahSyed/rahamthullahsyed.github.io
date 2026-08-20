@@ -749,8 +749,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Feature graphic banner HTML
       const bannerHtml = app.featureGraphicUrl 
-        ? `<div class="app-card-banner" style="background-image: url('${app.featureGraphicUrl}');"></div>`
-        : `<div class="app-card-banner bg-gradient-to-br ${app.color}"></div>`;
+        ? `<div class="app-card-banner-wrapper"><div class="app-card-banner" style="background-image: url('${app.featureGraphicUrl}');"></div></div>`
+        : `<div class="app-card-banner-wrapper"><div class="app-card-banner bg-gradient-to-br ${app.color}"></div></div>`;
 
       card.innerHTML = `
         ${bannerHtml}

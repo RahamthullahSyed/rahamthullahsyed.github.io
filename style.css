@@ -766,15 +766,24 @@ header .nav-container {
   border-color: var(--accent-primary);
 }
 
-/* Card Banner (first screenshot / feature graphic) */
+/* Card Banner (feature graphic showcase) */
+.app-card-banner-wrapper {
+  width: 100%;
+  padding: 0.85rem 0.85rem 0 0.85rem;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+
 .app-card-banner {
   width: 100%;
   aspect-ratio: 16 / 9;
   height: auto;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  border-bottom: 1px solid var(--border-color);
   background-repeat: no-repeat;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .app-card-inner-new {
