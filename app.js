@@ -659,6 +659,86 @@ const appsData = [
     "iconUrl": "https://play-lh.googleusercontent.com/l8e9A0PzbwhtZkqIwuzZMlidCU_NbsbgP_q6w1kBSMoPWcekiRvsrrXN8AXPCJDq9bqXjGQfsZjJaiFSJkb1=s180-rw",
     "featureGraphicUrl": "https://play-lh.googleusercontent.com/Bj1w_t7ozOuf0wzVSaMKL12C1E_0hpzfCFxwAp8El8__W1OOBL3CsLxZuRGWzU_Ub2Anli1iefBmlISKkCTEywI=w832-h470-rw",
     "screenshots": []
+  },
+  {
+    "id": "circuitpuzzle",
+    "title": "Power On: Circuit Puzzle",
+    "package": "com.poweron.circuitpuzzle",
+    "category": "puzzle",
+    "shortDesc": "Connect electrical logic circuits, align power paths, and restore energy flow across puzzle grids.",
+    "longDesc": "Power On: Circuit Puzzle is an addictive logic puzzle game where players align electrical tiles to construct closed circuit pathways and light up energy hubs. Rotate connectors, manage power sources, and clear hundreds of challenging levels with clean haptic feedback.",
+    "features": [
+      "Intricate electrical logic circuit puzzles",
+      "Smooth haptic tile rotations and neon power flow animations",
+      "Over 150 progressive brain-training grid levels",
+      "Full offline gameplay with relaxed no-timer puzzle mode"
+    ],
+    "badge": "New",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.poweron.circuitpuzzle",
+    "color": "from-amber-500 to-orange-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/zKZyR_tpYgMOxYHxs5cYsjfhavcGDsK3_TJULIsESouiWG8MzU8GXxQV74eiovqPNaEh3VOyunAjyyr6qkfT=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Hwo6x21nRgdLhjhA8lN2bvNw_j1wjyi7TH2Ch-y_6qLPw8KxXfD2dwkVwc0eerFz9Jkl1Plu8TFZmXg0LieJGw=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "numbermatch",
+    "title": "Number Match Brain Puzzle",
+    "package": "com.play.numbermatch",
+    "category": "puzzle",
+    "shortDesc": "Match pairs of identical or sum-to-10 numbers to clear grid rows in an addictive math puzzle.",
+    "longDesc": "Number Match Brain Puzzle is a classic number pairing puzzle game. Match pairs of equal numbers (3 and 3, 8 and 8) or numbers that add up to 10 (6 and 4, 7 and 3) to clear them from the board. Train your logic, focus, and memory while breaking your high score record.",
+    "features": [
+      "Classic number matching logic rules",
+      "Useful hints, undo actions, and additional line boosters",
+      "Calming background visuals with fluid animations",
+      "Offline gameplay for fast brain training sessions"
+    ],
+    "badge": "Math",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.numbermatch",
+    "color": "from-blue-500 to-indigo-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/u9MwEMX3NzSzI04EAigjjuSrMmeOgorS5f0__qoeGBYLWH9sd62g8jTQGGVkuYDGK7bXO2hwy9pMuVzaMxYvSZo=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/oZPzflG1ctmTKd32jFmr9OjXirNFk95Rdup0xHKlvHMDB_nxRrsT7DcVLAfYuYHFlPa3zNLypaYpu9QtMdqDPw=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "jigsaw-puzzle",
+    "title": "Jigsaw Puzzle: Classic Brain",
+    "package": "com.play.jigsaw_puzzle",
+    "category": "puzzle",
+    "shortDesc": "Relax and solve beautiful classic HD jigsaw puzzles with intuitive piece snap logic.",
+    "longDesc": "Jigsaw Puzzle: Classic Brain brings the soothing experience of traditional jigsaw puzzles to your phone and tablet. Choose from high-definition images, customize piece counts (from easy 24-piece to challenging 300+ piece grids), and enjoy relaxing background music while assembling art pieces.",
+    "features": [
+      "Rich library of high-resolution HD puzzle images",
+      "Customizable piece counts and rotation options",
+      "Automatic progress saving so you never lose a puzzle state",
+      "Soothing acoustic soundscapes and satisfying piece snapping"
+    ],
+    "badge": "Relaxing",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.jigsaw_puzzle",
+    "color": "from-purple-500 to-pink-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/w8i4m2-QbIQxzqMakjW3Gb-2lra1LfOOl1cYwFlrAXvkL3tnPS-0tkLVagAA19KaDrCEXJLjjSOwrHPNeg19=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/ZliY_h3llTvTjHWsidR4YVJJz8k3-YXS-u_8hxeeHwbu_NhuBov1R2XIUQxWNg8-GssW-OaE9EMintonhePY=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "carromboard",
+    "title": "Carrom Board Offline",
+    "package": "com.play.carromboard",
+    "category": "board",
+    "shortDesc": "Play classic tabletop Carrom board games offline with realistic disc physics and smart AI.",
+    "longDesc": "Carrom Board Offline brings the authentic Indian tabletop disc game to mobile. Master striker angles, pocket white and black carrom men, and claim the Queen with smooth physics controls. Play against friends in 2-player local mode or test your accuracy against adaptive AI opponents.",
+    "features": [
+      "Realistic disc friction, rebound angles, and striker physics",
+      "2-player local split-screen pass & play mode",
+      "Multiple difficulty settings for AI opponents",
+      "Smooth touch controls with visual aim line assistance"
+    ],
+    "badge": "Offline",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.carromboard",
+    "color": "from-emerald-500 to-teal-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/CbnSWnxNOXUvwBPhVVRQYnpFGuLSATesrrtWHtWdHAZmiVHBEPhXuMfl1j1A-cIwUnGBKdy6CqUv43tKT0nv=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/zR2JuR5k9GcWqSxciZcQl5Pysfr8KADrU1GwS9rZeVKNbFi5LfVS5AoaPaXG2HgyVXGLpAGdFsfZX7m4WK94=w832-h470-rw",
+    "screenshots": []
   }
 ];
 
