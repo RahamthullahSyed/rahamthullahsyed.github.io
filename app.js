@@ -677,7 +677,7 @@ const appsData = [
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.poweron.circuitpuzzle",
     "color": "from-amber-500 to-orange-700",
     "iconUrl": "https://play-lh.googleusercontent.com/zKZyR_tpYgMOxYHxs5cYsjfhavcGDsK3_TJULIsESouiWG8MzU8GXxQV74eiovqPNaEh3VOyunAjyyr6qkfT=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Hwo6x21nRgdLhjhA8lN2bvNw_j1wjyi7TH2Ch-y_6qLPw8KxXfD2dwkVwc0eerFz9Jkl1Plu8TFZmXg0LieJGw=w832-h470-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/gahpWF3oaG7CZ0rQGk7bmBU8l55DzplBv0vtahfAfRNLWbBx5UryD_NqHqRcBcdrQ-1L5i3Bo8rvqYIpvVYCJw=w832-h470-rw",
     "screenshots": []
   },
   {
@@ -697,7 +697,7 @@ const appsData = [
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.numbermatch",
     "color": "from-blue-500 to-indigo-700",
     "iconUrl": "https://play-lh.googleusercontent.com/u9MwEMX3NzSzI04EAigjjuSrMmeOgorS5f0__qoeGBYLWH9sd62g8jTQGGVkuYDGK7bXO2hwy9pMuVzaMxYvSZo=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/oZPzflG1ctmTKd32jFmr9OjXirNFk95Rdup0xHKlvHMDB_nxRrsT7DcVLAfYuYHFlPa3zNLypaYpu9QtMdqDPw=w832-h470-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/SqDJsUmpkolPkR39IFPDXaxyHL3PBMBkFUMKFZIkytj_G-9GaBdF4FfSpACBKNdnX7pFSDRwEnC0kctDpcWKXsc=w832-h470-rw",
     "screenshots": []
   },
   {
@@ -717,7 +717,7 @@ const appsData = [
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.jigsaw_puzzle",
     "color": "from-purple-500 to-pink-600",
     "iconUrl": "https://play-lh.googleusercontent.com/w8i4m2-QbIQxzqMakjW3Gb-2lra1LfOOl1cYwFlrAXvkL3tnPS-0tkLVagAA19KaDrCEXJLjjSOwrHPNeg19=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/ZliY_h3llTvTjHWsidR4YVJJz8k3-YXS-u_8hxeeHwbu_NhuBov1R2XIUQxWNg8-GssW-OaE9EMintonhePY=w832-h470-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/IbyiMQXQbDKFsitUpXF2h03ZWgwa4TlaeOJgsgz0BIyX9R7QpEAKPwy8iq0nk_Q_g7obIh5K3ryetobMt5p-0w=w832-h470-rw",
     "screenshots": []
   },
   {
@@ -737,7 +737,7 @@ const appsData = [
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.carromboard",
     "color": "from-emerald-500 to-teal-700",
     "iconUrl": "https://play-lh.googleusercontent.com/CbnSWnxNOXUvwBPhVVRQYnpFGuLSATesrrtWHtWdHAZmiVHBEPhXuMfl1j1A-cIwUnGBKdy6CqUv43tKT0nv=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/zR2JuR5k9GcWqSxciZcQl5Pysfr8KADrU1GwS9rZeVKNbFi5LfVS5AoaPaXG2HgyVXGLpAGdFsfZX7m4WK94=w832-h470-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/6NbMmbP9mc4P2KJWi8er2Fg3jsM2AUZxkmB_HJnmlejT5aGLxKNAdoO9tsI-5ECrsMf95P-DYEe390Ajqw6xvZo=w832-h470-rw",
     "screenshots": []
   }
 ];
