@@ -556,7 +556,7 @@ const appsData = [
     "badge": "Finance",
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sss.sipcalculatordailyweeklymonthlylumpsum",
     "color": "from-emerald-500 to-teal-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/HAlMb0pq7StXpqVAY-R0mqzVFr5-1cprYsW-P_wnkSQHRljdBaAJ7QEX8YA0pJwEvGKMgsT6WfgqWJvVq5zwHA=s180-rw",
+    "iconUrl": "https://play-lh.googleusercontent.com/-GygdKZfPuQGF-Y8F768lxB-9qY41xxYs36p4APtJtsjMHHdnRx5oWQGhaHpWV9L5faTibntrn4lzhb51TZgdw=s180-rw",
     "featureGraphicUrl": "https://play-lh.googleusercontent.com/mysaatGKw5Y1MxRiglC3mGSGQ0BARpcfzDMQNY98C86NO5MHW9FT3oFqU-Oe39GNPtdW-j8UmfnFdfa5tE1Q=w832-h470-rw",
     "screenshots": []
   },
