@@ -739,6 +739,66 @@ const appsData = [
     "iconUrl": "https://play-lh.googleusercontent.com/CbnSWnxNOXUvwBPhVVRQYnpFGuLSATesrrtWHtWdHAZmiVHBEPhXuMfl1j1A-cIwUnGBKdy6CqUv43tKT0nv=s180-rw",
     "featureGraphicUrl": "https://play-lh.googleusercontent.com/6NbMmbP9mc4P2KJWi8er2Fg3jsM2AUZxkmB_HJnmlejT5aGLxKNAdoO9tsI-5ECrsMf95P-DYEe390Ajqw6xvZo=w832-h470-rw",
     "screenshots": []
+  },
+  {
+    "id": "balancemath",
+    "title": "Balance Math: Logic Puzzle",
+    "package": "com.play.balancemath",
+    "category": "puzzle",
+    "shortDesc": "Balance arithmetic equations and solve engaging mathematical logic grid puzzles.",
+    "longDesc": "Balance Math: Logic Puzzle challenges your mathematical deduction and analytical reasoning. Place numerical weights and operators to balance scales, solve tricky number grids, and sharpen your daily mental arithmetic with smooth haptic feedback and hundreds of mind-bending levels.",
+    "features": [
+      "Engaging arithmetic balance scale mechanics",
+      "Progressive mathematical puzzles from beginner to master",
+      "Clean, minimalist interface with soothing soundscapes",
+      "100% offline gameplay with no timer pressure"
+    ],
+    "badge": "Math",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.balancemath",
+    "color": "from-indigo-500 to-blue-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/ikTdfPsYGgJh019P2R5jOaG2qCFwwXRm5FWg8u1ms2pJ1uXfULaQmdyLZgbt8WiI-kIfpcCKapZs3aor4iaY6w=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/VMPuO5Ce1tMKbfTk00Nj0uH_14LwbIad_ie6FHo6ctthWlBjLQ2XVDXSdi6K3C6t4P8RhY2yF41dbu6lfFS6=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "arrowmaze",
+    "title": "Arrow Maze: Escape Puzzle",
+    "package": "com.play.arrowmaze",
+    "category": "puzzle",
+    "shortDesc": "Navigate directional arrow labyrinths and guide pathways to escape intricate mazes.",
+    "longDesc": "Arrow Maze: Escape Puzzle is an intuitive spatial logic game where players traverse grid-based arrow labyrinths. Follow directional paths, unlock hidden exit gateways, and navigate around obstacle blocks. Plan your moves ahead to solve challenging escape puzzles.",
+    "features": [
+      "Innovative directional arrow navigation puzzles",
+      "Hundreds of handcrafted maze escape levels",
+      "Smooth tactile swipe controls with vibration feedback",
+      "Relaxing brain exercise playable entirely offline"
+    ],
+    "badge": "New",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.arrowmaze",
+    "color": "from-violet-600 to-purple-800",
+    "iconUrl": "https://play-lh.googleusercontent.com/wnWeSikdYeoNnO7hvKicByciZrJsyDNuyz326zaYUwzUaukcD0nqFMZVZSblMmqV0CeHWongU8w-KD1GwdFdXA=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/NvfWLDdGo-C6ikDYe8GiL3QZeo99IxNhB0pby5wK313_vQIiYfETxP-862AnnzixOe-rSorvDi4cIMyLjFCg=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "drawline",
+    "title": "Parking Jam: Draw the Line",
+    "package": "com.parkingjam.drawline",
+    "category": "puzzle",
+    "shortDesc": "Draw clear driving pathways to maneuver parked cars out of crowded parking lots.",
+    "longDesc": "Parking Jam: Draw the Line tests your spatial coordination and traffic strategy. Draw paths with your finger to direct each car out of crowded gridlocks without crashing into obstacles, pedestrians, or other vehicles. Enjoy satisfying traffic flow puzzles with realistic collision mechanics.",
+    "features": [
+      "Interactive line-drawing vehicle navigation mechanics",
+      "Challenging parking lot gridlock traffic puzzles",
+      "Satisfying car exit animations and dynamic sound effects",
+      "Hundreds of levels with increasing obstacles and vehicle types"
+    ],
+    "badge": "Popular",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.parkingjam.drawline",
+    "color": "from-amber-500 to-red-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/tX8qSV7InhRpXX3iBjAw6zZQy00Qi2gYlX6mHCrofpxc5RUHeaSRAIid0G0NWXpJWV8uZ6Oih7Rv7tuQMmOmSg=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/a3F9HSw0aG8xn3XD7v9Ivwr10ur_fFTLW5ibz26bIFYn8ir8aOFbErbrl9Gah89SXunfw5FzK-J-zbu1lEzO8A=w832-h470-rw",
+    "screenshots": []
   }
 ];
 
@@ -1013,11 +1073,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Counter animation function counting up from 0 to live apps total (33)
+  // Counter animation function counting up from 0 to live apps total (40)
   function animateLiveAppsCounter() {
     const counterElements = document.querySelectorAll("#live-apps-counter, #live-apps-count, .stat-apps");
     if (!counterElements || counterElements.length === 0) return;
-    const targetValue = appsData.length || 33;
+    const targetValue = appsData.length || 40;
     const duration = 3400; // 3.4 seconds smooth count-up animation
     const startTime = performance.now();
 
