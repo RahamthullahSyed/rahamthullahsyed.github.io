@@ -1,763 +1,43 @@
 // Apps Data for Sana Shahroz Sarah
 const appsData = [
   {
-    "id": "tictactoe-ultimate",
-    "title": "Tic Tac Toe: Ultimate",
-    "package": "com.play.tictactoe_ultimate",
+    "id": "colormaze",
+    "title": "Color Maze: Paint Puzzle",
+    "package": "com.play.colormaze",
     "category": "puzzle",
-    "shortDesc": "Experience the classic board game with smart AI and glowing neon graphics.",
-    "longDesc": "Tic Tac Toe: Ultimate modernizes the traditional paper-and-pencil game. Play against a highly adaptive AI that matches your skill level, or challenge friends locally. Explore expanded board sizes (3x3 up to 7x7) and alternative victory rules that turn a simple game into a deep tactical duel.",
+    "shortDesc": "Slide, paint every tile & solve colorful maze puzzles in fewer moves!",
+    "longDesc": "Color Maze: Paint Puzzle is a vibrant, satisfying logic game where players slide a paint roller to splash color across every corridor of intricate mazes. Plan your paths strategically to coat all blank tiles without getting trapped. Featuring fluid swipe controls, rich color palettes, and hundreds of relaxing puzzles.",
     "features": [
-      "Single-player mode with 4 difficulty settings",
-      "Local pass-and-play multiplayer",
-      "Multiple board layouts (3x3, 5x5, 7x7 grids)",
-      "Stunning neon glow visual theme"
-    ],
-    "badge": "Updated",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.tictactoe_ultimate",
-    "color": "from-purple-500 to-indigo-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/PEbUKgoYQNR1k75dQ3lK0Cuo9_OkEyK0a9n4rYxkcbnJmq49AK5lkf3_8puo9Y0BP_xn4zPH4je--Pufsob8=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/D85Bz0cORLEpvQIerKZvpuxinZrAX8O3xWg5622iMp61pktZoyHw183mbfuEEOJTFI2GKswDKGcCXRxTjfqf=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "multiplicationmaster",
-    "title": "Multiplication Master",
-    "package": "com.learn.multiplicationmaster",
-    "category": "education",
-    "shortDesc": "A fun and interactive educational tool to master multiplication tables.",
-    "longDesc": "Multiplication Master makes learning arithmetic tables engaging and fast. Perfect for students and children, it features interactive quizzes, audio-visual feedback, progress tracking, and gamified challenges that turn math practice into a fun daily habit.",
-    "features": [
-      "Dynamic quizzes and timed multiplication challenges",
-      "Interactive audio pronunciations for tables 1 to 50",
-      "Detailed progress scorecard tracking speed and accuracy",
-      "Kid-safe design with positive reinforcement gamification"
-    ],
-    "badge": "Educational",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.learn.multiplicationmaster",
-    "color": "from-yellow-500 to-amber-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/MFZfZwpKPvpyBG-crO0Ucb3AoS5dZuMFl4QWEpLXVVQwnzUy7djQJ9koASs6mlouxETBpqVCj-FTinbx969s=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/jPFUtRkk2D2DNJ92z5JmgYy5L4wRMl_oJO9TGGpZ4tr_UY7wWLhbmnSlzEz1CwSXFdxIEFR_UtMWKLBl5aJz-A=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "snakesvsladders",
-    "title": "Snakes Vs Ladders",
-    "package": "com.play.snakesvsladders",
-    "category": "casual",
-    "shortDesc": "The ultimate classic board game of Snakes and Ladders with fluid animations.",
-    "longDesc": "Snakes Vs Ladders brings the beloved classic to life on your mobile screen. Roll the dice, climb ladders, and slide down slithering snakes in a race to the 100th tile. Play against friends locally or test your luck against smart AI players in highly customized rooms.",
-    "features": [
-      "Classic board layouts with smooth dice rolling physics",
-      "1-4 player offline pass-and-play multiplayer",
-      "Challenging AI bots with variable difficulty settings",
-      "Beautiful, modern board illustrations and tokens"
-    ],
-    "badge": "Classic",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.snakesvsladders",
-    "color": "from-emerald-500 to-green-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/19hvltgQVXaYOId-yhgB_NNNosysQM4HwyLPPKDN-0NR2qd52qVBER1ilXb0cXnoVjm_VyYNhBKE41H2rDvXGw=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/diBeVpb2GfHWFyJFJ6yq176GdIf2ynPJfXY5RVQ908OvNTie3tD_GgD-xGQDCq6SiKkcjy1GRCOzMpr_qHpgjQ=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "magicsquare15",
-    "title": "Magic Square 15",
-    "package": "com.play.magicsquare15",
-    "category": "puzzle",
-    "shortDesc": "The ultimate arithmetic grid challenge aiming for the sum of 15.",
-    "longDesc": "Magic Square 15 brings the ancient mathematical grid game to your fingertips. Slide and place numbered tiles (1 to 9) in a 3x3 grid such that every row, column, and diagonal sums up to exactly 15. A perfect game for lovers of sudoku, math puzzles, and clean numerical challenges.",
-    "features": [
-      "Classic mathematical logic puzzles reconstructed for mobile",
-      "Timeless wooden-block and flat neo-brutalist themes",
-      "Instant board validation to check your mathematical sums",
-      "Detailed stat tracker and speed run mode"
-    ],
-    "badge": "Math",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.magicsquare15",
-    "color": "from-rose-500 to-pink-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/NWhRZX4v0oLasJs80MiyKqPa8CX2AzYdJVnv_iIQ0Lbve4O4YCw-xUQ17Aa3hWBbIbIbXst0yk0Rl83aNWu-Qnc=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/_5tlBn98fFkX3GvlGMhUmbrP-uuqeqTwHUYFpEPp12vJ3rnqx0Vyc9nRiigMYd5FxYiaNVRmef8Jl1rT9y93=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "tictactoe-2playerxoxochallenge",
-    "title": "Tic Tac Toe - 2 Player XO Game",
-    "package": "com.play.tictactoe_2playerxoxochallenge",
-    "category": "puzzle",
-    "shortDesc": "Challenge your friends in intense local 2-player XO board game tournaments.",
-    "longDesc": "Tic Tac Toe - 2 Player XO Game is designed for competitive local play. Battle your friends, family, or the AI in quick-fire rounds of noughts and crosses. Keep track of your winning streaks with an integrated score scoreboard, and unlock sleek custom symbols.",
-    "features": [
-      "Optimized for dual local players on a single screen",
-      "Interactive match history and scoreboard tracking",
-      "Adaptive AI that learns from your gameplay patterns",
-      "Minimalist, high-performance interface with quick restart"
-    ],
-    "badge": "2-Player",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.tictactoe_2playerxoxochallenge",
-    "color": "from-cyan-500 to-blue-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/VPJo92inDRgPutX3AQPxsDAo1ZRMgyyJnmL3CMninRfi2XfSlSXgfH8ScCwt82hOKJNdyrdNzeCjAI3cwGga=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/TmjoYHoy9fd3OV8UeKfkiwx5JfPoIwejty3P9_HpLU9HuygLRztubInChFq5GgdLGLogCPkspLr2QL4g8whN=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "arrowpuzzle",
-    "title": "Arrow Puzzle",
-    "package": "com.play.arrowpuzzle",
-    "category": "puzzle",
-    "shortDesc": "A mind-bending logic puzzle testing your spatial reasoning.",
-    "longDesc": "Arrow Puzzle is a sleek, minimalist brainteaser where players must rotate and align grid-based arrows to form clear pathways. Each level introduces unique obstacles and directional rules, demanding planning and spatial logic. Designed with smooth haptic feedback and clean aesthetics, it's the perfect daily exercise for your brain.",
-    "features": [
-      "Over 200 hand-crafted spatial logic levels",
-      "Minimalist design with soothing soundscapes",
-      "Increasing complexity with custom lock tiles and gates",
-      "No timer pressure — play and solve at your own pace"
-    ],
-    "badge": "Featured",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.arrowpuzzle",
-    "color": "from-blue-500 to-indigo-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/3QXAWvPNzOK_tK_r0NmawYmkEBbelgMn-_9N1yrcEYk7vX79wrRbXQ8HZBYp8JMDOOJLnb4MRGE4L9Wq6isAb-4=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/4ZeVW3zoQKs5NX2x1LhOtYmABklE9uOxCmJftEYNBlPMoakVzCVQzk9LlZT6B9T7M2WXPAourPVxY-R15-nB0A=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "pipelinkpuzzle",
-    "title": "Connect Pipes: Flow Puzzle",
-    "package": "com.play.pipelinkpuzzle",
-    "category": "puzzle",
-    "shortDesc": "Link matching color nodes with pipe lines to fill the board.",
-    "longDesc": "Connect Pipes is a classic flow-based puzzle game. Connect pairs of colorful nodes by drawing pipes across the grid. Be careful—pipes will break if they cross or overlap! Cover the entire board to solve each level and achieve a perfect grid score.",
-    "features": [
-      "Grid sizes ranging from 5x5 to 10x10",
-      "Neon pipe flows and dynamic connection glow effects",
-      "Daily puzzles to keep your mind sharp",
-      "Clean UI optimized for high-performance mobile play"
-    ],
-    "badge": "Popular",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.pipelinkpuzzle",
-    "color": "from-cyan-500 to-blue-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/Yd6OxsSNugqMKKo0peDh9D7q7Os7OQcp5Yv1qPVrrhmUCqLGBxy5HrkpI2Zd5FXFk7UCFZGg72OIrctlI63S=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/teW0NbgDzg6ROOHM67cmRhtfO5yPooylF4Nr5oL_1--vQJ2lKAlxXbat4QkUrn0Aynprg-PJ-395saKQK6Si=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "puzzle",
-    "title": "Nut Color Sort Puzzle Game",
-    "package": "com.sssgames.nut.color.sort.puzzle",
-    "category": "puzzle",
-    "shortDesc": "Sort colorful nuts on metallic bolts in this satisfying puzzle.",
-    "longDesc": "Immerse yourself in a tactile sorting challenge. Nut Color Sort combines ASMR-like metal clinks with engaging sorting mechanics. Organize scrambled colored nuts onto their matching bolts until every bolt holds a single uniform color. It starts easy but becomes a complex test of logic and planning.",
-    "features": [
-      "Ultra-satisfying metal clinking sound effects (ASMR)",
-      "Vibrant industrial-chic visual design",
-      "Undos, restarts, and extra bolts available for tough levels",
-      "Teases logic skills with a progressive difficulty curve"
-    ],
-    "badge": "ASMR",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sssgames.nut.color.sort.puzzle",
-    "color": "from-amber-500 to-orange-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/6kUKGHkuf44o3TMAEYcsixI0amGJvPcW8pOfxvS7SRPq1EEy1D0N4S-VxNjQOxqWJOtyUO6xcX-dyE8hO9Nay3M=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/8hA4gh5YeA5Uwi5KtmhegWBuGpepW0gWxa56TOppgNZrhKWT-TVaSEEYzVpChttVmu08A8spWyaiqGzNCn4hiA=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "mytimetable",
-    "title": "My Timetable",
-    "package": "com.planning.mytimetable",
-    "category": "productivity",
-    "shortDesc": "A sleek, highly organized scheduler for classes, work, and tasks.",
-    "longDesc": "My Timetable is the ultimate companion app for students, teachers, and professionals. Organize your weekly schedule, track course assignments, set custom notification reminders for upcoming sessions, and sync your tasks inside a beautiful, ad-free calendar dashboard.",
-    "features": [
-      "Clean weekly and daily calendar overview layouts",
-      "Color-coded subjects, tags, and custom task priority lists",
-      "Smart notifications for upcoming classes and exams",
-      "Seamless offline support with local secure database backups"
-    ],
-    "badge": "Productivity",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.planning.mytimetable",
-    "color": "from-emerald-500 to-teal-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/SZZNoszHRPRqJGP0xJ2CAQRmjzf0aOu3vTia5fqg8NhzZ55_hvor6hrKR9Mc61Pfg2LoviEL2z31jNn_qNU5Mg=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/H04_nvevScbPZqA7TtyU3ZmF57oD3ai6vhmpIQVldzAb5MYeB9TpX4orUtmpGkpy5T3zhMWNWnNEqnVuHZOiGg=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "digitalpipelink",
-    "title": "Digital Pipe Link",
-    "package": "com.play.digitalpipelink",
-    "category": "puzzle",
-    "shortDesc": "Establish digital links in a futuristic matrix puzzle grid.",
-    "longDesc": "Digital Pipe Link challenges players to establish digital data linkages through a grid matrix of network nodes. Map your paths strategically to connect all systems without colliding or cutting other connections. It offers a sleek cyberpunk interface and deep planning challenges.",
-    "features": [
-      "Sleek cyberpunk matrix visual aesthetic",
-      "Hundreds of logical wire routing puzzles",
-      "Innovative grid mechanics featuring directional splitters",
-      "Immersive electronic background tracks"
-    ],
-    "badge": "Matrix",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.digitalpipelink",
-    "color": "from-violet-500 to-fuchsia-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/PdMJ8bqCW9G3Os4PpTJaOmq3fl8DlIfKSHL0bSswlqesvOVO_GiMlghjDpt6LQILisoTASqvTfTCUQC0RxE_ww=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/ilRG6vgI2CeGaA3aFuvMJ24EMmUoYhQIEoO-KO93GbdBHSEZ3lyMsZ9I2d4S_MRLLe7183byF_RQEMPc3jfeBA=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "digitalhockey",
-    "title": "Digital Hockey",
-    "package": "com.play.digitalhockey",
-    "category": "board",
-    "shortDesc": "Neon-drenched air hockey with ultra-responsive touch physics.",
-    "longDesc": "Digital Hockey turns your screen into a high-speed air hockey table. Featuring fluid, ultra-responsive touch controls and realistic puck physics, it delivers intense competitive matches. Play against three tiers of AI difficulty or battle local friends in a head-to-head 2-player mode.",
-    "features": [
-      "Ultra-fluid 60FPS physics engine optimized for touch screens",
-      "Glowing neon retro aesthetics and satisfying collision sparks",
-      "Single-player championship tournaments and endless arcade modes",
-      "Intense local 2-player split screen mode"
-    ],
-    "badge": "Arcade",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.digitalhockey",
-    "color": "from-pink-500 to-rose-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/yWfc22DuQfm4K2wIMK9JxZ0JgQrFC6ik5YvszWVOF0gSz5_vq2zDQ391DmpJzMBE_oM0oMMB4fSNwS7e5kwnAw=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/xBB9RMvbzhO-dbygTMiU2Jl2d3frpbUKKv07LLxkpmSZrEMhnoVqMnnpxp0UN_lRROM0Dolgj0hgrG1gEljl=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "snakepuzzle",
-    "title": "Snake Out Puzzle Escape Game",
-    "package": "com.play.snakepuzzle",
-    "category": "puzzle",
-    "shortDesc": "Solve gridlocked levels and guide trapped snakes to freedom.",
-    "longDesc": "Snake Out is a parking-lot style grid puzzle with a serpentine twist. Slide colorful snakes along their tracks to unravel the massive snake pile-up. You must carefully schedule their movement order to avoid head-on crashes and successfully guide each snake out of the grid escape gates.",
-    "features": [
-      "Dozens of gridlock stages with unique snake patterns",
-      "Stunning 3D-styled flat graphics and smooth animations",
-      "Unlockable snake skins and colorful theme templates",
-      "Brain-stimulating gameplay that gets progressively challenging"
-    ],
-    "badge": "Trending",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.snakepuzzle",
-    "color": "from-lime-500 to-green-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/KK6Tk9lV1Ef6pN7s09Z4NV-0QVSjJy11W-x-iUJPpgPo0P42_brek7xlySeSu8DS-uxNHgzW7aVG2hLt2TIm3vc=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/xPn3NPvJHaLbUwkSpp30ROj_nSU9gBkkze4iybzh3rxYbwjVbvw_9Hta6SYSHYLqetvv4lvO7kWM1YhA81wD=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "colorliquidsortpuzzle",
-    "title": "Color Liquid Sort Puzzle",
-    "package": "com.play.colorliquidsortpuzzle",
-    "category": "puzzle",
-    "shortDesc": "Sort colored water between flasks in a relaxing liquid logic test.",
-    "longDesc": "A smooth and satisfying liquid sorting game. Pour colored water from tube to tube until all flasks contain only one color. Each move requires calculating space constraints and matching colors. It's a calming, zen-like game designed to relieve stress while gently training your brain.",
-    "features": [
-      "Smooth liquid physics and beautiful color gradients",
-      "One-finger controls for comfortable play",
-      "Hundreds of unique, brain-teasing levels",
-      "No penalties or time limits; restart anytime"
-    ],
-    "badge": "Calming",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.colorliquidsortpuzzle",
-    "color": "from-teal-400 to-emerald-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/mVMZRT28hTDJys1oNlDz4QZ3FD3RUKt9X5I4CM_8WAgKWegStfsnemur7ul6F478LQlS74cK0672YeMGByiWLA=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/6ZdZDL_ZEd_GsL2xombnfltCdt6w3sG-1qUqbGWLYvB0DzcjGKymk5LDcG_JnxdGuHBF9gR7MMbMD3_FNFTmzw=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "digitalsnake",
-    "title": "Digital Snake",
-    "package": "com.play.digitalsnake",
-    "category": "arcade",
-    "shortDesc": "A modern glow-in-the-dark arcade reconstruction of the retro snake game.",
-    "longDesc": "Digital Snake reimagines the classic Nokia arcade classic. Control your snake through neon matrices, gobble glowing energy cubes to grow larger, and avoid colliding with your own tail or the perimeter walls. It offers multiple game speeds and retro neon visual styles.",
-    "features": [
-      "Classic gameplay updated with neon matrix themes",
-      "Fluid 4-way swipe and virtual D-pad options",
-      "Power-ups: Speed boost, size shrink, and shield",
-      "Global leaderboard tracking high-score achievements"
-    ],
-    "badge": "Retro",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.digitalsnake",
-    "color": "from-orange-500 to-red-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/N8LvxS16PS24hIFeRxHGFtHsPJj8qiZVjRK7V1dVspw4kCaJnV0ScyHT_zYxHw8Ql00RLlvCClioT5ERKODo2Q=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/RfOqj8hqGblxo8bM4tnMnpOA7kF2bybMyuQA6fbIUgJXJf3zMitavw5S7j_4Y_sTEsF_m_1hSKb55TAxKfw7=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "snakesladderscardflip",
-    "title": "Snake & Ladder Card Flip Game",
-    "package": "com.sss.snakesladderscardflip",
-    "category": "board",
-    "shortDesc": "A card-driven modern twist on the classic family board game.",
-    "longDesc": "Ditch the dice! Snake & Ladder Card Flip Game merges board game luck with tactical deck building. Players flip dynamic action cards to decide their steps, climb ladders, dodge venomous snakes, and cast spells on opponents. It brings fresh depth and excitement to a nostalgic childhood classic.",
-    "features": [
-      "Innovative card-flipping mechanics replacing traditional dice",
-      "Special action cards: Shield, Swap places, Double step, and Freeze",
-      "Beautifully illustrated boards with animated snakes and ladders",
-      "Play solo against smart bots or local multiplayer"
-    ],
-    "badge": "Tactical",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sss.snakesladderscardflip",
-    "color": "from-violet-600 to-fuchsia-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/aoOQ_6gBP-6EyA6WL_2cuQQn3RARfPW_kSM_-tqgW7d5bKx5dib887E6GSN15RBpWZGuN518bGyJ2TugqDdY23Y=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/VKzbl2RcG-mtVp5tgzf_DCcxcuJgcFBZTRMPxXXj2HqLlBjPccucphHpcJnSCPjsohBlEkIpW2hGQe9z1bED=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "reservoirinflowscalculator",
-    "title": "Reservoir Inflows Calculator",
-    "package": "com.tool.reservoirinflowscalculator",
-    "category": "education",
-    "shortDesc": "An advanced calculator for hydrologists and reservoir inflow analysts.",
-    "longDesc": "Reservoir Inflows Calculator is a professional tool designed to calculate water inflow rates, storage levels, and discharge volumes. Perfect for hydrology students, civil engineers, and environmental scientists, it offers standard formula presets and graphing utilities.",
-    "features": [
-      "Hydrology calculations for inflows, storage, and discharge",
-      "Custom formula entry and standard presets library",
-      "Interactive tables and graphical volume plotting",
-      "Export calculations report as CSV format"
-    ],
-    "badge": "Scientific",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.tool.reservoirinflowscalculator",
-    "color": "from-sky-600 to-blue-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/PrEeM8BKvVP-ZU0diRCIuI_Yx3ccETloO3bkXk3EExctTpeMU69bTVDvOZZqz0yAMfIMlJ8lFmJuiwLpqfnRVQ=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/u7vWMKc0S67ZhIa--m8mbtUq8J8mrfnDroj-VFzpVxtvD0y25Q0hl7dM8zhaWIPrCZ87qors3Kbabebc1RMXHg=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "sip4future",
-    "title": "SIP4Future",
-    "package": "com.awareness.sip4future",
-    "category": "finance",
-    "shortDesc": "Calculate Systematic Investment Plans (SIP) and map your future wealth.",
-    "longDesc": "SIP4Future empowers users to plan their financial independence. Calculate compound interest, estimate future returns on Systematic Investment Plans (SIP), compare lumpsum vs. recurring deposits, and visualize your wealth growth over time with interactive charts.",
-    "features": [
-      "Instant calculations for SIP returns, wealth gain, and target goals",
-      "Interactive pie charts and annual breakdowns of your investments",
-      "Inflation adjustment toggles for realistic long-term projections",
-      "Clean financial reports exportable as neat PDF summaries"
-    ],
-    "badge": "Finance",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.awareness.sip4future",
-    "color": "from-blue-600 to-cyan-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/-HpHU08WvUvpQpf2Isj1ajonblALiNCGRydbex6KZypf15gcQ3Xp1XxYIJGtZORWTk2ODnNqE3xuQJQLUoV_P3g=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/SNrbxwTO7Ic0lecEETXiI9r_U_GYttD9_P1GN0AOEusg03M9Vg02mRao-6pNuV4OsvpumZRjgKV9uEaQIzcQ=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "puzzle",
-    "title": "Color Ball Sort Puzzle Game",
-    "package": "com.sssgames.color.ball.sort.puzzle",
-    "category": "puzzle",
-    "shortDesc": "Sort colorful balls in tubes to solve hundreds of relaxing logic puzzle levels.",
-    "longDesc": "Color Ball Sort Puzzle Game is a calming yet challenging logic game designed to train your brain. Sort colourful balls into tubes so that each tube contains only one color. Experience smooth physics animations, responsive touch controls, and clean interfaces that make brain-teasing gameplay highly satisfying.",
-    "features": [
-      "Hundreds of challenging levels with a progressive difficulty curve",
-      "Calming visual aesthetics and smooth ball-rolling physics animations",
-      "Simple one-touch controls with toggleable haptic vibration feedback",
-      "Full offline support — play anytime without requiring Wi-Fi"
-    ],
-    "badge": "Calming",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sssgames.color.ball.sort.puzzle",
-    "color": "from-emerald-400 to-teal-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/vZThXBEnS_VAv2PTwy3IM3b2_7a_s_1lp3-ScnVKFaiA6H4umwZnSm9zgS1_-AJl0IkHlK2y1ZRtwQzxWmOb2FQ=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/b-cVyjSp6h6ptSmEPYiHaqrmuFPIopjokejkS0sDczEhN6TsRtOSdRvM6-kT8NAMk7H3v6JADXbY86S9pnnUUQ=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "gravitydunk",
-    "title": "Gravity Dunk",
-    "package": "com.play.gravitydunk",
-    "category": "casual",
-    "shortDesc": "Flip gravity to slam dunk basketballs through tricky obstacles.",
-    "longDesc": "Gravity Dunk is a basketball physics game with a mind-bending puzzle hook. Instead of shooting the ball, you control gravity. Flip gravity upside down, push the ball left and right, dodge spiky defense blocks, and solve bouncy mechanical puzzles to guide the ball into the hoop.",
-    "features": [
-      "Addictive gravity-shifting mechanics combined with arcade basketball",
-      "Dozens of levels with bounce pads, teleporters, and moving hoops",
-      "Satisfying chain reactions and basketball net physics swishes",
-      "Daily trick shot trials for bonus stars"
-    ],
-    "badge": "Physics",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.gravitydunk",
-    "color": "from-orange-500 to-red-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/saVi1z13IwqDOBuw8R0TnKsdtl_7HUwg_aj77zJboUeIy7b41YL7TZr3oJJ_g42IgH8VhIadL5o1hPA41P7q=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/iOz6u_NOg1bZP5dPsJ_ExGVWfHsM_xXVE95RrfUc0it3OovbfDB-Rnm8KasnnCVSHWTSkMyEUaYnc2ZUP3ZELQ=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "floodit",
-    "title": "Flood-It! Brain Puzzle Game",
-    "package": "com.play.floodit",
-    "category": "puzzle",
-    "shortDesc": "Tap colours to flood the board and fill the grid in the fewest moves possible.",
-    "longDesc": "Flood-It! Brain Puzzle Game challenges your strategic planning and logical thinking. Starting from the top-left corner, select colors to flood adjacent tiles and cover the entire board in a single uniform color. Achieve victory before you run out of moves, and test your skills across multiple grid sizes.",
-    "features": [
-      "Three difficulty levels: Easy (8x8), Medium (12x12), and Hard (16x16)",
-      "Clean, colorful interface and eye care mode to reduce strain",
-      "Smooth, high-performance gameplay optimized for all devices",
-      "Quick restart and satisfying win animations for repeatable play"
-    ],
-    "badge": "Strategy",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.floodit",
-    "color": "from-rose-500 to-pink-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/mO3FPBix8DuFJVCwEP_mgOuiXBVM80mHQ_eJ0HoUZUyv7qZaSf72uFt1iHG0VlGXNmvScomoB4V9-dpVHSIzwbM=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/mOhEvLS55YpN0eMNZrhB0utk6F-i4QOn99nWwpNLb_BswR8LYJne-wg_tNZ-8I1RaSoAwj94vJv_405hXSUJJdc=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "galaxy-shooter-space-attack",
-    "title": "Galaxy Shooter Space Attack",
-    "package": "com.sssgames.galaxy_shooter_space_attack",
-    "category": "adventure",
-    "shortDesc": "Retro arcade space combat. Upgrade your ship and defend the galaxy.",
-    "longDesc": "Relive the golden age of arcade cabinets with Galaxy Shooter. Pilot an advanced space fighter against relentless waves of alien swarms, dodge incoming bullet hells, and defeat massive screen-filling bosses. Collect scrap metal to customize and upgrade your shields, weapons, and missiles.",
-    "features": [
-      "Fast-paced shoot 'em up (shmup) retro arcade gameplay",
-      "Multiple upgrade trees for blasters, lasers, and side-drones",
-      "Epic boss fights with diverse, challenging attack patterns",
-      "Hypnotic synth-wave soundtrack and gorgeous neon particle effects"
-    ],
-    "badge": "Arcade",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sssgames.galaxy_shooter_space_attack",
-    "color": "from-indigo-600 to-purple-800",
-    "iconUrl": "https://play-lh.googleusercontent.com/t6e_kaRkBbR8qzj2CzfFIuvRCMYdmYbbhVV6N6bl8JaL-DYNGrZxS84Elx5muMJ8jO8q5c47aigTCT-eCgY=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/13JIcnrYkxeQd2lFjBb44G-uWqQ4yReRCpDGvaqqbnzgaM1lAg87DSIZB1cBIPkH1ABb38dLWkvo12JOPd5u6g=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "aerochallenge",
-    "title": "Aero Challenge",
-    "package": "com.play.aerochallenge",
-    "category": "casual",
-    "shortDesc": "Steer supersonic jets through challenging obstacle courses.",
-    "longDesc": "Aero Challenge tests your reflexes as you pilot high-speed aircraft through narrow canyons, rotating hoops, and shifting structural hazards. Keep your speed high to beat the record times, but stay focused—a single scrape can send your fighter jet down in flames.",
-    "features": [
-      "Responsive accelerometer and touch steering controls",
-      "Multiple jet fighters to unlock, each with unique handling profiles",
-      "Time-trials and structural survival modes",
-      "Immersive 3D environments with dynamic weather and lighting"
-    ],
-    "badge": "Supersonic",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.aerochallenge",
-    "color": "from-sky-500 to-indigo-500",
-    "iconUrl": "https://play-lh.googleusercontent.com/yKLmNNVSs5mwtQMLXowxoanQumtUrlkX1XMbIu1rZKdJEgLndKfYne8deAaQqpEpz9IfrNdTLuFrr7AW23Xxjw=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/rM_vo5LqqDDFMRyZFY30nS0v4oiN5Hg1qJd0mEhq--FzeTHcYqOELVVimaUuU8tRgyuBf3PStGnrQsbV_OOdfaU=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "ridersnowman",
-    "title": "Rider Snow Man",
-    "package": "com.play.ridersnowman",
-    "category": "adventure",
-    "shortDesc": "Fun snowman riding game! Jump, collect rewards, dodge dangers, ride far.",
-    "longDesc": "Slide, jump, and ride through snowy slopes in Rider Snow Man! Help the snowman navigate tricky winter terrain, jump over dangerous obstacles, and collect frozen gems to unlock cool new gears. A delightful arcade adventure that tests your timing and reflexes in a winter wonderland.",
-    "features": [
-      "Challenging snowy tracks with physics-based jumps",
-      "Simple and intuitive one-tap timing controls",
-      "Multiple snowman characters and boards to unlock",
-      "Beautiful winter scenery and seasonal music themes"
-    ],
-    "badge": "Adventure",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.ridersnowman",
-    "color": "from-blue-400 to-indigo-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/zxn50tlpxAWzZZ86NjaVVU1Zryf474DvbHBfmfkYzZdZ-aeRoW_br-aVkjawEDSSfVDHCcTZj4aBOniD0HTnfA=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/4Klqe2iUPNlog_SpeD4jWeJxN7K4GWeS4FAdDnWj-_5-EeRgu30Kz0Dv5Ejbv_yC86cLg6FOBraM-TlOehM5FA=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "puzzle2048",
-    "title": "2048 Brain Puzzle Game",
-    "package": "com.play.puzzle2048",
-    "category": "puzzle",
-    "shortDesc": "Classic 2048 puzzle game — merge numbers & train your brain!",
-    "longDesc": "2048 Brain Puzzle Game is the ultimate grid-merging challenge. Swipe to move numbered tiles across the grid. When two tiles with the same number touch, they merge into one! Reach the legendary 2048 tile and beyond to prove your arithmetic logic and strategic planning.",
-    "features": [
-      "Classic 4x4 grid gameplay with smooth slide animations",
-      "Undo button and auto-save options to preserve high-scores",
-      "Minimalist visual style with eye-pleasing warm color themes",
-      "Complete offline support to train your brain anywhere"
-    ],
-    "badge": "Brain",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.puzzle2048",
-    "color": "from-orange-400 to-amber-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/Sw2pUs82e8Axoga4lsmzZvQwm_fS52B5I5AFu3XbYbL-1vKQjayyIsnL-gET_SQng8ozCghE_TfD6jo2iQmTFQ=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Hgn5BorkMP8EUXyuFo-WejqDYv-n2KOO4tbILAXGGF6P1M6kZT6WpnvxC3ZDUK8J4nb6BQ8-DoWz8mOs4BasEw=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "ball2048drop",
-    "title": "2048 Ball Drop: Merge & Relax",
-    "package": "com.play.relaxing.ball2048drop",
-    "category": "puzzle",
-    "shortDesc": "Drop balls, merge 2048, and relax with satisfying physics puzzle fun!",
-    "longDesc": "Merge numbers in 3D physics space! In 2048 Ball Drop, aim and release numbered balls into the container. When identical balls collide, they merge into a larger ball with double the value. Plan your bounces, watch out for the fill line, and enjoy a satisfying, zen-like physics puzzle.",
-    "features": [
-      "Tactile 3D-styled physics and satisfying bounce dynamics",
-      "Smooth controls to aim, drop, and merge numbers",
-      "Sleek colorful balls with soft neon glow accents",
-      "Relaxing ASMR sounds and no time limits pressure"
-    ],
-    "badge": "Relaxing",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.relaxing.ball2048drop",
-    "color": "from-violet-500 to-indigo-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/hSxQmuGY-uFRzimxp8Inrlirci1jGJNaApJzWI8FWvx0XWVSs_DWH4rqcTT3Yjvzj_igL9qog5aFwT0vxMuzeQ=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/1_y60yF6Qpp5MzRATa45n6juTj1dqkrX2GSLxu-474-7TDVt4bbUzdqgZo--iJL1GHzXIdwmaq-9Dl_eVm2M1g=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "airhockey2player",
-    "title": "Air Hockey 2 Player Offline",
-    "package": "com.sarahgames.airhockey2player",
-    "category": "arcade",
-    "shortDesc": "Air hockey offline game with 2 player mode, neon glow & smart AI",
-    "longDesc": "Air Hockey 2 Player Offline delivers the ultimate neon tabletop air hockey arcade experience directly to your screen. Challenge your friends in local 2-player split-screen tournaments, or play against adaptive AI bots. Experience realistic physics, bright glow graphics, and satisfying collision sounds.",
-    "features": [
-      "Offline local 2-player split-screen mode",
-      "Adaptable AI with multiple difficulty settings",
-      "Bright neon glow visuals and satisfying physics",
-      "Instant match restart and quick scoreboards"
-    ],
-    "badge": "Offline",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sarahgames.airhockey2player",
-    "color": "from-pink-500 to-rose-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/XAvKPgeVdC8770BRyFUFPppaeEK_ZkwBo1ArG4YYh8xvJ32YLI7gcJTQS6D310hjHEYl51zknXNqAwO-10U64mM=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/hYejcboc4Y2n460JZViqy9TqEP8bpOT_EdQk6M4wV7uTyfnVZhCmy_gV_BCeMcvIvx4T4C9TjOI1WOiiWavR=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "tap-block-away-puzzle",
-    "title": "Tap Block Away: Maze Escape",
-    "package": "com.play.tap_block_away_puzzle",
-    "category": "puzzle",
-    "shortDesc": "Relax with 3D block puzzles! Tap arrows, rotate the cube and clear the board.",
-    "longDesc": "Tap Block Away: Maze Escape is a relaxing and brain-training 3D puzzle game. Tap the blocks to make them fly away and clear the board. However, the blocks will only fly in one direction according to the arrows, so you must rotate the cube structure carefully to find the correct clearing paths.",
-    "features": [
-      "Challenging 3D block clearing gameplay mechanics",
-      "Full 360-degree rotation of the puzzle cube",
-      "Calming background soundscapes and ASMR sound effects",
-      "Hundreds of progressive levels with colorful blocks"
-    ],
-    "badge": "3D Puzzle",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.tap_block_away_puzzle",
-    "color": "from-teal-400 to-emerald-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/w1TH4Z1lqmJYcBY_l_9Qxi4sSDa15jek5xm8hJk1UyDrYvDI230Aoc-2OGdbNGpOga3eG--pM59MgL8gRIW6=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Lc9iX4KPc1SukF6ufCUUmgbygDLcogQR_lqnlRGXUE9tG_M6asq9hcybQ4pqTO_P1m_uu4PNyytgQ2Pq0Pv1mDg=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "sipcalculatordailyweeklymonthlylumpsum",
-    "title": "SIP Calculator: Daily Weekly",
-    "package": "com.sss.sipcalculatordailyweeklymonthlylumpsum",
-    "category": "finance",
-    "shortDesc": "Advanced SIP Calculator supporting daily, weekly, monthly, and yearly investment frequencies.",
-    "longDesc": "SIP Calculator: Daily Weekly is a flexible investment planner. Easily calculate Systematic Investment Plan (SIP) returns with unique daily and weekly options. Plan for long-term goals like buying a house, children's education, or building a target corpus, and use the retirement planner to estimate your required savings.",
-    "features": [
-      "Flexible SIP calculations: Daily, Weekly, Monthly, and Yearly",
-      "Lumpsum investment calculator with growth projections",
-      "Reverse Target SIP planner to achieve specific financial goals",
-      "Retirement planner with inflation adjustment toggles"
-    ],
-    "badge": "Finance",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sss.sipcalculatordailyweeklymonthlylumpsum",
-    "color": "from-emerald-500 to-teal-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/-GygdKZfPuQGF-Y8F768lxB-9qY41xxYs36p4APtJtsjMHHdnRx5oWQGhaHpWV9L5faTibntrn4lzhb51TZgdw=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/mysaatGKw5Y1MxRiglC3mGSGQ0BARpcfzDMQNY98C86NO5MHW9FT3oFqU-Oe39GNPtdW-j8UmfnFdfa5tE1Q=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "dot-connect-flow-puzzle",
-    "title": "Connect Dots: Flow Puzzle",
-    "package": "com.play.dot_connect_flow_puzzle",
-    "category": "puzzle",
-    "shortDesc": "Connect matching colored dots with flow lines to fill the board.",
-    "longDesc": "Connect Dots: Flow Puzzle is an addictive logic puzzle game. Connect matching colored dots and draw continuous paths between them to cover the entire grid. Plan your moves carefully to avoid overlapping or crossing lines, and solve puzzles across multiple grid sizes.",
-    "features": [
-      "Vibrant color matching puzzles with smooth flow lines",
-      "Multiple difficulty levels: Small, Medium, and Large grids",
-      "Hundreds of unique, brain-training puzzle levels",
-      "Full offline support with no time limit pressure"
-    ],
-    "badge": "Flow",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.dot_connect_flow_puzzle",
-    "color": "from-cyan-400 to-sky-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/RWBNC7mPR_UV22jO_gWLGZJd8g8IrQ2lg1doTgJrh01jfcvzTo-_dtR9-LstBv2lwBxw8fNCx1NQi9hlcVbWfA=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/frDBhMcGoMUZo6Po-QIY_UNzD1MWpKG1HxtMxYdmRA65HOurlSbJKmiouxDtLjbD3dfRHueDr9L-Vi3yVeqLsA=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "block-fill-one-line-puzzle",
-    "title": "Block Fill: One Line Puzzle",
-    "package": "com.play.block_fill_one_line_puzzle",
-    "category": "puzzle",
-    "shortDesc": "Draw a single continuous line to fill all block squares on the grid.",
-    "longDesc": "Block Fill: One Line Puzzle is an engaging logic game that challenges your strategic planning. Draw one continuous path to fill every block on the grid without crossing over or revisiting previously filled squares. It starts with simple grids and moves up to complex layouts.",
-    "features": [
-      "Thousands of handcrafted one-line block puzzle levels",
-      "Delightful xylophone sound effects responding to your movements",
-      "Responsive haptic vibration feedback for satisfying links",
-      "Clean, minimalist layout optimized for offline brain training"
-    ],
-    "badge": "One Line",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.block_fill_one_line_puzzle",
-    "color": "from-indigo-500 to-violet-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/3_Ug39Hm_EFbmK-sBthzuRP1izP7LAuydUQDpb5P0-ADqI1fxu0d_GuhBaTiy9PiAufbMkwM3_k-TUHBmBdp=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/-8U2PAX2FTLVfCvzJDHCR1bI6Lys8fqBwVIEeVEZCPPWBDfRNmZDaPxWih6bBW2XLZ259bYgCA42l0gsJ0Fv=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "popitrelaxinggame",
-    "title": "Pop It! Relaxing Game",
-    "package": "com.play.popitrelaxinggame",
-    "category": "casual",
-    "shortDesc": "Pop satisfying bubbles in relaxing fidget toys with smooth ASMR sound effects.",
-    "longDesc": "Pop It! Relaxing Game is the ultimate anti-stress fidget toy experience designed to help you unwind and relax. Enjoy beautifully designed silicone pop it toys with realistic bubble pressing physics, smooth pop animations, and calming ASMR audio.",
-    "features": [
-      "Realistic bubble pressing physics with smooth pop animations",
-      "Variety of real-world shapes: Heart, Star, Octagon, and Triangle",
-      "Calming ASMR audio feedback with multi-touch support",
-      "Full offline gameplay with endless flip and replay fun"
-    ],
-    "badge": "ASMR",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.popitrelaxinggame",
-    "color": "from-purple-500 to-pink-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/ELqB0kLaA2ekycwuy_xaTV3A9lCBC6it9Caqw9d7p14oYIgeaycnN5JOaafGqDRHojaa5olYsftTeb9Q3UBY=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/on6pubTMwkcfLx5bYheHQlkxtLIQXX2VH3eXmvfmp2giAUZ7cthRK9cKs5Jx_UO7fjuthObAXKcnFv8_Pqiz8cQ=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "slidingnumberpuzzle",
-    "title": "Classic Sliding Number Puzzle",
-    "package": "com.play.slidingnumberpuzzle",
-    "category": "puzzle",
-    "shortDesc": "Classic wooden sliding number puzzle challenge with smooth offline gameplay.",
-    "longDesc": "Classic Sliding Number Puzzle brings the timeless sliding tile challenge to your fingertips. Rearrange the numbered wooden tiles into the correct order by sliding them into the empty space. Complete each puzzle in the fewest moves to sharpen your logical thinking.",
-    "features": [
-      "Classic sliding tile gameplay with smooth responsive controls",
-      "Multiple board sizes and difficulty levels from Easy to Expert",
-      "Beautiful wooden tile design with intelligent solvable shuffle",
-      "Move counter and timer tracking with full offline support"
-    ],
-    "badge": "Classic",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.slidingnumberpuzzle",
-    "color": "from-amber-600 to-yellow-800",
-    "iconUrl": "https://play-lh.googleusercontent.com/hvS_AQ2Qp4gVm67iHiHJI22yYV_Fl885wcAHSCEvSySKy73cGK6Fi_M2j2kmDMLCeSoqj3m-nhUjurcTRdn51w=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/8nLgZaPtGJ4exTN4UOlDx8W_ZFdqCVQLKbMzi2IANIWg_6H1y0paZJVcARLG04vpfvqkPbhDecOtiSkLZCyEJw=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "dino-run",
-    "title": "Dino Run!: Desert Adventure",
-    "package": "com.play.dino_run",
-    "category": "arcade",
-    "shortDesc": "Run, jump, and dodge obstacles in an endless desert dinosaur runner adventure.",
-    "longDesc": "Dino Run!: Desert Adventure is an action-packed endless runner inspired by the classic offline Chrome Dinosaur game. Take control of a brave T-Rex racing across a vibrant desert packed with cacti and pterodactyls. Master double jumps and timing to set new high scores.",
-    "features": [
-      "Endless runner gameplay inspired by the classic Chrome Dino game",
-      "Desert-themed environments with cacti and flying obstacles",
-      "Smooth dinosaur animations with intuitive double-jump mechanics",
-      "Offline arcade gameplay with progressive speed challenge"
-    ],
-    "badge": "Runner",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.dino_run",
-    "color": "from-amber-500 to-orange-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/l8e9A0PzbwhtZkqIwuzZMlidCU_NbsbgP_q6w1kBSMoPWcekiRvsrrXN8AXPCJDq9bqXjGQfsZjJaiFSJkb1=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Bj1w_t7ozOuf0wzVSaMKL12C1E_0hpzfCFxwAp8El8__W1OOBL3CsLxZuRGWzU_Ub2Anli1iefBmlISKkCTEywI=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "circuitpuzzle",
-    "title": "Power On: Circuit Puzzle",
-    "package": "com.poweron.circuitpuzzle",
-    "category": "puzzle",
-    "shortDesc": "Connect electrical logic circuits, align power paths, and restore energy flow across puzzle grids.",
-    "longDesc": "Power On: Circuit Puzzle is an addictive logic puzzle game where players align electrical tiles to construct closed circuit pathways and light up energy hubs. Rotate connectors, manage power sources, and clear hundreds of challenging levels with clean haptic feedback.",
-    "features": [
-      "Intricate electrical logic circuit puzzles",
-      "Smooth haptic tile rotations and neon power flow animations",
-      "Over 150 progressive brain-training grid levels",
-      "Full offline gameplay with relaxed no-timer puzzle mode"
-    ],
-    "badge": "New",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.poweron.circuitpuzzle",
-    "color": "from-amber-500 to-orange-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/zKZyR_tpYgMOxYHxs5cYsjfhavcGDsK3_TJULIsESouiWG8MzU8GXxQV74eiovqPNaEh3VOyunAjyyr6qkfT=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/gahpWF3oaG7CZ0rQGk7bmBU8l55DzplBv0vtahfAfRNLWbBx5UryD_NqHqRcBcdrQ-1L5i3Bo8rvqYIpvVYCJw=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "numbermatch",
-    "title": "Number Match Brain Puzzle",
-    "package": "com.play.numbermatch",
-    "category": "puzzle",
-    "shortDesc": "Match pairs of identical or sum-to-10 numbers to clear grid rows in an addictive math puzzle.",
-    "longDesc": "Number Match Brain Puzzle is a classic number pairing puzzle game. Match pairs of equal numbers (3 and 3, 8 and 8) or numbers that add up to 10 (6 and 4, 7 and 3) to clear them from the board. Train your logic, focus, and memory while breaking your high score record.",
-    "features": [
-      "Classic number matching logic rules",
-      "Useful hints, undo actions, and additional line boosters",
-      "Calming background visuals with fluid animations",
-      "Offline gameplay for fast brain training sessions"
-    ],
-    "badge": "Math",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.numbermatch",
-    "color": "from-blue-500 to-indigo-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/u9MwEMX3NzSzI04EAigjjuSrMmeOgorS5f0__qoeGBYLWH9sd62g8jTQGGVkuYDGK7bXO2hwy9pMuVzaMxYvSZo=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/SqDJsUmpkolPkR39IFPDXaxyHL3PBMBkFUMKFZIkytj_G-9GaBdF4FfSpACBKNdnX7pFSDRwEnC0kctDpcWKXsc=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "jigsaw-puzzle",
-    "title": "Jigsaw Puzzle: Classic Brain",
-    "package": "com.play.jigsaw_puzzle",
-    "category": "puzzle",
-    "shortDesc": "Relax and solve beautiful classic HD jigsaw puzzles with intuitive piece snap logic.",
-    "longDesc": "Jigsaw Puzzle: Classic Brain brings the soothing experience of traditional jigsaw puzzles to your phone and tablet. Choose from high-definition images, customize piece counts (from easy 24-piece to challenging 300+ piece grids), and enjoy relaxing background music while assembling art pieces.",
-    "features": [
-      "Rich library of high-resolution HD puzzle images",
-      "Customizable piece counts and rotation options",
-      "Automatic progress saving so you never lose a puzzle state",
-      "Soothing acoustic soundscapes and satisfying piece snapping"
-    ],
-    "badge": "Relaxing",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.jigsaw_puzzle",
-    "color": "from-purple-500 to-pink-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/w8i4m2-QbIQxzqMakjW3Gb-2lra1LfOOl1cYwFlrAXvkL3tnPS-0tkLVagAA19KaDrCEXJLjjSOwrHPNeg19=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/IbyiMQXQbDKFsitUpXF2h03ZWgwa4TlaeOJgsgz0BIyX9R7QpEAKPwy8iq0nk_Q_g7obIh5K3ryetobMt5p-0w=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "carromboard",
-    "title": "Carrom Board Offline",
-    "package": "com.play.carromboard",
-    "category": "board",
-    "shortDesc": "Play classic tabletop Carrom board games offline with realistic disc physics and smart AI.",
-    "longDesc": "Carrom Board Offline brings the authentic Indian tabletop disc game to mobile. Master striker angles, pocket white and black carrom men, and claim the Queen with smooth physics controls. Play against friends in 2-player local mode or test your accuracy against adaptive AI opponents.",
-    "features": [
-      "Realistic disc friction, rebound angles, and striker physics",
-      "2-player local split-screen pass & play mode",
-      "Multiple difficulty settings for AI opponents",
-      "Smooth touch controls with visual aim line assistance"
-    ],
-    "badge": "Offline",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.carromboard",
-    "color": "from-emerald-500 to-teal-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/CbnSWnxNOXUvwBPhVVRQYnpFGuLSATesrrtWHtWdHAZmiVHBEPhXuMfl1j1A-cIwUnGBKdy6CqUv43tKT0nv=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/6NbMmbP9mc4P2KJWi8er2Fg3jsM2AUZxkmB_HJnmlejT5aGLxKNAdoO9tsI-5ECrsMf95P-DYEe390Ajqw6xvZo=w832-h470-rw",
-    "screenshots": []
-  },
-  {
-    "id": "balancemath",
-    "title": "Balance Math: Logic Puzzle",
-    "package": "com.play.balancemath",
-    "category": "puzzle",
-    "shortDesc": "Balance arithmetic equations and solve engaging mathematical logic grid puzzles.",
-    "longDesc": "Balance Math: Logic Puzzle challenges your mathematical deduction and analytical reasoning. Place numerical weights and operators to balance scales, solve tricky number grids, and sharpen your daily mental arithmetic with smooth haptic feedback and hundreds of mind-bending levels.",
-    "features": [
-      "Engaging arithmetic balance scale mechanics",
-      "Progressive mathematical puzzles from beginner to master",
-      "Clean, minimalist interface with soothing soundscapes",
+      "Satisfying tile-painting maze mechanics",
+      "Vibrant color palettes and smooth roll animations",
+      "Over 200 progressive logic-testing maze layouts",
       "100% offline gameplay with no timer pressure"
     ],
-    "badge": "Math",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.balancemath",
-    "color": "from-indigo-500 to-blue-700",
-    "iconUrl": "https://play-lh.googleusercontent.com/ikTdfPsYGgJh019P2R5jOaG2qCFwwXRm5FWg8u1ms2pJ1uXfULaQmdyLZgbt8WiI-kIfpcCKapZs3aor4iaY6w=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/VMPuO5Ce1tMKbfTk00Nj0uH_14LwbIad_ie6FHo6ctthWlBjLQ2XVDXSdi6K3C6t4P8RhY2yF41dbu6lfFS6=w832-h470-rw",
+    "badge": "New",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.colormaze",
+    "color": "from-fuchsia-500 to-pink-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/W1WTSuFgylGGQ7cYz2hW8IhofokwWPKCcLKjwpgXcVYLu6ux1U0ef-B-m5DRzAI1HPpyr3mTub8TJnU9gYO1tg=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/LytWPIXhl-5FgLEPWTzuXngwjxaQt4wvEkANP_hsJfHXOM4us3Wby1Zf6KeaRHRhmeJegNr2YlL9Imgu4_AO=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "drawline",
+    "title": "Parking Jam: Draw the Line",
+    "package": "com.parkingjam.drawline",
+    "category": "puzzle",
+    "shortDesc": "Draw clear driving pathways to maneuver parked cars out of crowded parking lots.",
+    "longDesc": "Parking Jam: Draw the Line tests your spatial coordination and traffic strategy. Draw paths with your finger to direct each car out of crowded gridlocks without crashing into obstacles, pedestrians, or other vehicles. Enjoy satisfying traffic flow puzzles with realistic collision mechanics.",
+    "features": [
+      "Interactive line-drawing vehicle navigation mechanics",
+      "Challenging parking lot gridlock traffic puzzles",
+      "Satisfying car exit animations and dynamic sound effects",
+      "Hundreds of levels with increasing obstacles and vehicle types"
+    ],
+    "badge": "Popular",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.parkingjam.drawline",
+    "color": "from-amber-500 to-red-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/tX8qSV7InhRpXX3iBjAw6zZQy00Qi2gYlX6mHCrofpxc5RUHeaSRAIid0G0NWXpJWV8uZ6Oih7Rv7tuQMmOmSg=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/a3F9HSw0aG8xn3XD7v9Ivwr10ur_fFTLW5ibz26bIFYn8ir8aOFbErbrl9Gah89SXunfw5FzK-J-zbu1lEzO8A=w832-h470-rw",
     "screenshots": []
   },
   {
@@ -781,23 +61,763 @@ const appsData = [
     "screenshots": []
   },
   {
-    "id": "drawline",
-    "title": "Parking Jam: Draw the Line",
-    "package": "com.parkingjam.drawline",
+    "id": "balancemath",
+    "title": "Balance Math: Logic Puzzle",
+    "package": "com.play.balancemath",
     "category": "puzzle",
-    "shortDesc": "Draw clear driving pathways to maneuver parked cars out of crowded parking lots.",
-    "longDesc": "Parking Jam: Draw the Line tests your spatial coordination and traffic strategy. Draw paths with your finger to direct each car out of crowded gridlocks without crashing into obstacles, pedestrians, or other vehicles. Enjoy satisfying traffic flow puzzles with realistic collision mechanics.",
+    "shortDesc": "Balance arithmetic equations and solve engaging mathematical logic grid puzzles.",
+    "longDesc": "Balance Math: Logic Puzzle challenges your mathematical deduction and analytical reasoning. Place numerical weights and operators to balance scales, solve tricky number grids, and sharpen your daily mental arithmetic with smooth haptic feedback and hundreds of mind-bending levels.",
     "features": [
-      "Interactive line-drawing vehicle navigation mechanics",
-      "Challenging parking lot gridlock traffic puzzles",
-      "Satisfying car exit animations and dynamic sound effects",
-      "Hundreds of levels with increasing obstacles and vehicle types"
+      "Engaging arithmetic balance scale mechanics",
+      "Progressive mathematical puzzles from beginner to master",
+      "Clean, minimalist interface with soothing soundscapes",
+      "100% offline gameplay with no timer pressure"
+    ],
+    "badge": "Math",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.balancemath",
+    "color": "from-indigo-500 to-blue-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/ikTdfPsYGgJh019P2R5jOaG2qCFwwXRm5FWg8u1ms2pJ1uXfULaQmdyLZgbt8WiI-kIfpcCKapZs3aor4iaY6w=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/VMPuO5Ce1tMKbfTk00Nj0uH_14LwbIad_ie6FHo6ctthWlBjLQ2XVDXSdi6K3C6t4P8RhY2yF41dbu6lfFS6=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "carromboard",
+    "title": "Carrom Board Offline",
+    "package": "com.play.carromboard",
+    "category": "board",
+    "shortDesc": "Play classic tabletop Carrom board games offline with realistic disc physics and smart AI.",
+    "longDesc": "Carrom Board Offline brings the authentic Indian tabletop disc game to mobile. Master striker angles, pocket white and black carrom men, and claim the Queen with smooth physics controls. Play against friends in 2-player local mode or test your accuracy against adaptive AI opponents.",
+    "features": [
+      "Realistic disc friction, rebound angles, and striker physics",
+      "2-player local split-screen pass & play mode",
+      "Multiple difficulty settings for AI opponents",
+      "Smooth touch controls with visual aim line assistance"
+    ],
+    "badge": "Offline",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.carromboard",
+    "color": "from-emerald-500 to-teal-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/CbnSWnxNOXUvwBPhVVRQYnpFGuLSATesrrtWHtWdHAZmiVHBEPhXuMfl1j1A-cIwUnGBKdy6CqUv43tKT0nv=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/6NbMmbP9mc4P2KJWi8er2Fg3jsM2AUZxkmB_HJnmlejT5aGLxKNAdoO9tsI-5ECrsMf95P-DYEe390Ajqw6xvZo=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "jigsaw-puzzle",
+    "title": "Jigsaw Puzzle: Classic Brain",
+    "package": "com.play.jigsaw_puzzle",
+    "category": "puzzle",
+    "shortDesc": "Relax and solve beautiful classic HD jigsaw puzzles with intuitive piece snap logic.",
+    "longDesc": "Jigsaw Puzzle: Classic Brain brings the soothing experience of traditional jigsaw puzzles to your phone and tablet. Choose from high-definition images, customize piece counts (from easy 24-piece to challenging 300+ piece grids), and enjoy relaxing background music while assembling art pieces.",
+    "features": [
+      "Rich library of high-resolution HD puzzle images",
+      "Customizable piece counts and rotation options",
+      "Automatic progress saving so you never lose a puzzle state",
+      "Soothing acoustic soundscapes and satisfying piece snapping"
+    ],
+    "badge": "Relaxing",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.jigsaw_puzzle",
+    "color": "from-purple-500 to-pink-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/w8i4m2-QbIQxzqMakjW3Gb-2lra1LfOOl1cYwFlrAXvkL3tnPS-0tkLVagAA19KaDrCEXJLjjSOwrHPNeg19=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/IbyiMQXQbDKFsitUpXF2h03ZWgwa4TlaeOJgsgz0BIyX9R7QpEAKPwy8iq0nk_Q_g7obIh5K3ryetobMt5p-0w=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "numbermatch",
+    "title": "Number Match Brain Puzzle",
+    "package": "com.play.numbermatch",
+    "category": "puzzle",
+    "shortDesc": "Match pairs of identical or sum-to-10 numbers to clear grid rows in an addictive math puzzle.",
+    "longDesc": "Number Match Brain Puzzle is a classic number pairing puzzle game. Match pairs of equal numbers (3 and 3, 8 and 8) or numbers that add up to 10 (6 and 4, 7 and 3) to clear them from the board. Train your logic, focus, and memory while breaking your high score record.",
+    "features": [
+      "Classic number matching logic rules",
+      "Useful hints, undo actions, and additional line boosters",
+      "Calming background visuals with fluid animations",
+      "Offline gameplay for fast brain training sessions"
+    ],
+    "badge": "Math",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.numbermatch",
+    "color": "from-blue-500 to-indigo-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/u9MwEMX3NzSzI04EAigjjuSrMmeOgorS5f0__qoeGBYLWH9sd62g8jTQGGVkuYDGK7bXO2hwy9pMuVzaMxYvSZo=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/SqDJsUmpkolPkR39IFPDXaxyHL3PBMBkFUMKFZIkytj_G-9GaBdF4FfSpACBKNdnX7pFSDRwEnC0kctDpcWKXsc=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "circuitpuzzle",
+    "title": "Power On: Circuit Puzzle",
+    "package": "com.poweron.circuitpuzzle",
+    "category": "puzzle",
+    "shortDesc": "Connect electrical logic circuits, align power paths, and restore energy flow across puzzle grids.",
+    "longDesc": "Power On: Circuit Puzzle is an addictive logic puzzle game where players align electrical tiles to construct closed circuit pathways and light up energy hubs. Rotate connectors, manage power sources, and clear hundreds of challenging levels with clean haptic feedback.",
+    "features": [
+      "Intricate electrical logic circuit puzzles",
+      "Smooth haptic tile rotations and neon power flow animations",
+      "Over 150 progressive brain-training grid levels",
+      "Full offline gameplay with relaxed no-timer puzzle mode"
+    ],
+    "badge": "New",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.poweron.circuitpuzzle",
+    "color": "from-amber-500 to-orange-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/zKZyR_tpYgMOxYHxs5cYsjfhavcGDsK3_TJULIsESouiWG8MzU8GXxQV74eiovqPNaEh3VOyunAjyyr6qkfT=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/gahpWF3oaG7CZ0rQGk7bmBU8l55DzplBv0vtahfAfRNLWbBx5UryD_NqHqRcBcdrQ-1L5i3Bo8rvqYIpvVYCJw=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "dino-run",
+    "title": "Dino Run!: Desert Adventure",
+    "package": "com.play.dino_run",
+    "category": "arcade",
+    "shortDesc": "Run, jump, and dodge obstacles in an endless desert dinosaur runner adventure.",
+    "longDesc": "Dino Run!: Desert Adventure is an action-packed endless runner inspired by the classic offline Chrome Dinosaur game. Take control of a brave T-Rex racing across a vibrant desert packed with cacti and pterodactyls. Master double jumps and timing to set new high scores.",
+    "features": [
+      "Endless runner gameplay inspired by the classic Chrome Dino game",
+      "Desert-themed environments with cacti and flying obstacles",
+      "Smooth dinosaur animations with intuitive double-jump mechanics",
+      "Offline arcade gameplay with progressive speed challenge"
+    ],
+    "badge": "Runner",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.dino_run",
+    "color": "from-amber-500 to-orange-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/l8e9A0PzbwhtZkqIwuzZMlidCU_NbsbgP_q6w1kBSMoPWcekiRvsrrXN8AXPCJDq9bqXjGQfsZjJaiFSJkb1=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Bj1w_t7ozOuf0wzVSaMKL12C1E_0hpzfCFxwAp8El8__W1OOBL3CsLxZuRGWzU_Ub2Anli1iefBmlISKkCTEywI=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "slidingnumberpuzzle",
+    "title": "Classic Sliding Number Puzzle",
+    "package": "com.play.slidingnumberpuzzle",
+    "category": "puzzle",
+    "shortDesc": "Classic wooden sliding number puzzle challenge with smooth offline gameplay.",
+    "longDesc": "Classic Sliding Number Puzzle brings the timeless sliding tile challenge to your fingertips. Rearrange the numbered wooden tiles into the correct order by sliding them into the empty space. Complete each puzzle in the fewest moves to sharpen your logical thinking.",
+    "features": [
+      "Classic sliding tile gameplay with smooth responsive controls",
+      "Multiple board sizes and difficulty levels from Easy to Expert",
+      "Beautiful wooden tile design with intelligent solvable shuffle",
+      "Move counter and timer tracking with full offline support"
+    ],
+    "badge": "Classic",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.slidingnumberpuzzle",
+    "color": "from-amber-600 to-yellow-800",
+    "iconUrl": "https://play-lh.googleusercontent.com/hvS_AQ2Qp4gVm67iHiHJI22yYV_Fl885wcAHSCEvSySKy73cGK6Fi_M2j2kmDMLCeSoqj3m-nhUjurcTRdn51w=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/8nLgZaPtGJ4exTN4UOlDx8W_ZFdqCVQLKbMzi2IANIWg_6H1y0paZJVcARLG04vpfvqkPbhDecOtiSkLZCyEJw=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "popitrelaxinggame",
+    "title": "Pop It! Relaxing Game",
+    "package": "com.play.popitrelaxinggame",
+    "category": "casual",
+    "shortDesc": "Pop satisfying bubbles in relaxing fidget toys with smooth ASMR sound effects.",
+    "longDesc": "Pop It! Relaxing Game is the ultimate anti-stress fidget toy experience designed to help you unwind and relax. Enjoy beautifully designed silicone pop it toys with realistic bubble pressing physics, smooth pop animations, and calming ASMR audio.",
+    "features": [
+      "Realistic bubble pressing physics with smooth pop animations",
+      "Variety of real-world shapes: Heart, Star, Octagon, and Triangle",
+      "Calming ASMR audio feedback with multi-touch support",
+      "Full offline gameplay with endless flip and replay fun"
+    ],
+    "badge": "ASMR",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.popitrelaxinggame",
+    "color": "from-purple-500 to-pink-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/ELqB0kLaA2ekycwuy_xaTV3A9lCBC6it9Caqw9d7p14oYIgeaycnN5JOaafGqDRHojaa5olYsftTeb9Q3UBY=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/on6pubTMwkcfLx5bYheHQlkxtLIQXX2VH3eXmvfmp2giAUZ7cthRK9cKs5Jx_UO7fjuthObAXKcnFv8_Pqiz8cQ=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "block-fill-one-line-puzzle",
+    "title": "Block Fill: One Line Puzzle",
+    "package": "com.play.block_fill_one_line_puzzle",
+    "category": "puzzle",
+    "shortDesc": "Draw a single continuous line to fill all block squares on the grid.",
+    "longDesc": "Block Fill: One Line Puzzle is an engaging logic game that challenges your strategic planning. Draw one continuous path to fill every block on the grid without crossing over or revisiting previously filled squares. It starts with simple grids and moves up to complex layouts.",
+    "features": [
+      "Thousands of handcrafted one-line block puzzle levels",
+      "Delightful xylophone sound effects responding to your movements",
+      "Responsive haptic vibration feedback for satisfying links",
+      "Clean, minimalist layout optimized for offline brain training"
+    ],
+    "badge": "One Line",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.block_fill_one_line_puzzle",
+    "color": "from-indigo-500 to-violet-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/3_Ug39Hm_EFbmK-sBthzuRP1izP7LAuydUQDpb5P0-ADqI1fxu0d_GuhBaTiy9PiAufbMkwM3_k-TUHBmBdp=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/-8U2PAX2FTLVfCvzJDHCR1bI6Lys8fqBwVIEeVEZCPPWBDfRNmZDaPxWih6bBW2XLZ259bYgCA42l0gsJ0Fv=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "dot-connect-flow-puzzle",
+    "title": "Connect Dots: Flow Puzzle",
+    "package": "com.play.dot_connect_flow_puzzle",
+    "category": "puzzle",
+    "shortDesc": "Connect matching colored dots with flow lines to fill the board.",
+    "longDesc": "Connect Dots: Flow Puzzle is an addictive logic puzzle game. Connect matching colored dots and draw continuous paths between them to cover the entire grid. Plan your moves carefully to avoid overlapping or crossing lines, and solve puzzles across multiple grid sizes.",
+    "features": [
+      "Vibrant color matching puzzles with smooth flow lines",
+      "Multiple difficulty levels: Small, Medium, and Large grids",
+      "Hundreds of unique, brain-training puzzle levels",
+      "Full offline support with no time limit pressure"
+    ],
+    "badge": "Flow",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.dot_connect_flow_puzzle",
+    "color": "from-cyan-400 to-sky-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/RWBNC7mPR_UV22jO_gWLGZJd8g8IrQ2lg1doTgJrh01jfcvzTo-_dtR9-LstBv2lwBxw8fNCx1NQi9hlcVbWfA=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/frDBhMcGoMUZo6Po-QIY_UNzD1MWpKG1HxtMxYdmRA65HOurlSbJKmiouxDtLjbD3dfRHueDr9L-Vi3yVeqLsA=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "sipcalculatordailyweeklymonthlylumpsum",
+    "title": "SIP Calculator: Daily Weekly",
+    "package": "com.sss.sipcalculatordailyweeklymonthlylumpsum",
+    "category": "finance",
+    "shortDesc": "Advanced SIP Calculator supporting daily, weekly, monthly, and yearly investment frequencies.",
+    "longDesc": "SIP Calculator: Daily Weekly is a flexible investment planner. Easily calculate Systematic Investment Plan (SIP) returns with unique daily and weekly options. Plan for long-term goals like buying a house, children's education, or building a target corpus, and use the retirement planner to estimate your required savings.",
+    "features": [
+      "Flexible SIP calculations: Daily, Weekly, Monthly, and Yearly",
+      "Lumpsum investment calculator with growth projections",
+      "Reverse Target SIP planner to achieve specific financial goals",
+      "Retirement planner with inflation adjustment toggles"
+    ],
+    "badge": "Finance",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sss.sipcalculatordailyweeklymonthlylumpsum",
+    "color": "from-emerald-500 to-teal-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/-GygdKZfPuQGF-Y8F768lxB-9qY41xxYs36p4APtJtsjMHHdnRx5oWQGhaHpWV9L5faTibntrn4lzhb51TZgdw=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/mysaatGKw5Y1MxRiglC3mGSGQ0BARpcfzDMQNY98C86NO5MHW9FT3oFqU-Oe39GNPtdW-j8UmfnFdfa5tE1Q=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "tap-block-away-puzzle",
+    "title": "Tap Block Away: Maze Escape",
+    "package": "com.play.tap_block_away_puzzle",
+    "category": "puzzle",
+    "shortDesc": "Relax with 3D block puzzles! Tap arrows, rotate the cube and clear the board.",
+    "longDesc": "Tap Block Away: Maze Escape is a relaxing and brain-training 3D puzzle game. Tap the blocks to make them fly away and clear the board. However, the blocks will only fly in one direction according to the arrows, so you must rotate the cube structure carefully to find the correct clearing paths.",
+    "features": [
+      "Challenging 3D block clearing gameplay mechanics",
+      "Full 360-degree rotation of the puzzle cube",
+      "Calming background soundscapes and ASMR sound effects",
+      "Hundreds of progressive levels with colorful blocks"
+    ],
+    "badge": "3D Puzzle",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.tap_block_away_puzzle",
+    "color": "from-teal-400 to-emerald-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/w1TH4Z1lqmJYcBY_l_9Qxi4sSDa15jek5xm8hJk1UyDrYvDI230Aoc-2OGdbNGpOga3eG--pM59MgL8gRIW6=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Lc9iX4KPc1SukF6ufCUUmgbygDLcogQR_lqnlRGXUE9tG_M6asq9hcybQ4pqTO_P1m_uu4PNyytgQ2Pq0Pv1mDg=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "airhockey2player",
+    "title": "Air Hockey 2 Player Offline",
+    "package": "com.sarahgames.airhockey2player",
+    "category": "arcade",
+    "shortDesc": "Air hockey offline game with 2 player mode, neon glow & smart AI",
+    "longDesc": "Air Hockey 2 Player Offline delivers the ultimate neon tabletop air hockey arcade experience directly to your screen. Challenge your friends in local 2-player split-screen tournaments, or play against adaptive AI bots. Experience realistic physics, bright glow graphics, and satisfying collision sounds.",
+    "features": [
+      "Offline local 2-player split-screen mode",
+      "Adaptable AI with multiple difficulty settings",
+      "Bright neon glow visuals and satisfying physics",
+      "Instant match restart and quick scoreboards"
+    ],
+    "badge": "Offline",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sarahgames.airhockey2player",
+    "color": "from-pink-500 to-rose-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/XAvKPgeVdC8770BRyFUFPppaeEK_ZkwBo1ArG4YYh8xvJ32YLI7gcJTQS6D310hjHEYl51zknXNqAwO-10U64mM=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/hYejcboc4Y2n460JZViqy9TqEP8bpOT_EdQk6M4wV7uTyfnVZhCmy_gV_BCeMcvIvx4T4C9TjOI1WOiiWavR=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "ball2048drop",
+    "title": "2048 Ball Drop: Merge & Relax",
+    "package": "com.play.relaxing.ball2048drop",
+    "category": "puzzle",
+    "shortDesc": "Drop balls, merge 2048, and relax with satisfying physics puzzle fun!",
+    "longDesc": "Merge numbers in 3D physics space! In 2048 Ball Drop, aim and release numbered balls into the container. When identical balls collide, they merge into a larger ball with double the value. Plan your bounces, watch out for the fill line, and enjoy a satisfying, zen-like physics puzzle.",
+    "features": [
+      "Tactile 3D-styled physics and satisfying bounce dynamics",
+      "Smooth controls to aim, drop, and merge numbers",
+      "Sleek colorful balls with soft neon glow accents",
+      "Relaxing ASMR sounds and no time limits pressure"
+    ],
+    "badge": "Relaxing",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.relaxing.ball2048drop",
+    "color": "from-violet-500 to-indigo-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/hSxQmuGY-uFRzimxp8Inrlirci1jGJNaApJzWI8FWvx0XWVSs_DWH4rqcTT3Yjvzj_igL9qog5aFwT0vxMuzeQ=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/1_y60yF6Qpp5MzRATa45n6juTj1dqkrX2GSLxu-474-7TDVt4bbUzdqgZo--iJL1GHzXIdwmaq-9Dl_eVm2M1g=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "puzzle2048",
+    "title": "2048 Brain Puzzle Game",
+    "package": "com.play.puzzle2048",
+    "category": "puzzle",
+    "shortDesc": "Classic 2048 puzzle game — merge numbers & train your brain!",
+    "longDesc": "2048 Brain Puzzle Game is the ultimate grid-merging challenge. Swipe to move numbered tiles across the grid. When two tiles with the same number touch, they merge into one! Reach the legendary 2048 tile and beyond to prove your arithmetic logic and strategic planning.",
+    "features": [
+      "Classic 4x4 grid gameplay with smooth slide animations",
+      "Undo button and auto-save options to preserve high-scores",
+      "Minimalist visual style with eye-pleasing warm color themes",
+      "Complete offline support to train your brain anywhere"
+    ],
+    "badge": "Brain",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.puzzle2048",
+    "color": "from-orange-400 to-amber-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/Sw2pUs82e8Axoga4lsmzZvQwm_fS52B5I5AFu3XbYbL-1vKQjayyIsnL-gET_SQng8ozCghE_TfD6jo2iQmTFQ=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Hgn5BorkMP8EUXyuFo-WejqDYv-n2KOO4tbILAXGGF6P1M6kZT6WpnvxC3ZDUK8J4nb6BQ8-DoWz8mOs4BasEw=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "ridersnowman",
+    "title": "Rider Snow Man",
+    "package": "com.play.ridersnowman",
+    "category": "adventure",
+    "shortDesc": "Fun snowman riding game! Jump, collect rewards, dodge dangers, ride far.",
+    "longDesc": "Slide, jump, and ride through snowy slopes in Rider Snow Man! Help the snowman navigate tricky winter terrain, jump over dangerous obstacles, and collect frozen gems to unlock cool new gears. A delightful arcade adventure that tests your timing and reflexes in a winter wonderland.",
+    "features": [
+      "Challenging snowy tracks with physics-based jumps",
+      "Simple and intuitive one-tap timing controls",
+      "Multiple snowman characters and boards to unlock",
+      "Beautiful winter scenery and seasonal music themes"
+    ],
+    "badge": "Adventure",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.ridersnowman",
+    "color": "from-blue-400 to-indigo-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/zxn50tlpxAWzZZ86NjaVVU1Zryf474DvbHBfmfkYzZdZ-aeRoW_br-aVkjawEDSSfVDHCcTZj4aBOniD0HTnfA=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/4Klqe2iUPNlog_SpeD4jWeJxN7K4GWeS4FAdDnWj-_5-EeRgu30Kz0Dv5Ejbv_yC86cLg6FOBraM-TlOehM5FA=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "aerochallenge",
+    "title": "Aero Challenge",
+    "package": "com.play.aerochallenge",
+    "category": "casual",
+    "shortDesc": "Steer supersonic jets through challenging obstacle courses.",
+    "longDesc": "Aero Challenge tests your reflexes as you pilot high-speed aircraft through narrow canyons, rotating hoops, and shifting structural hazards. Keep your speed high to beat the record times, but stay focused—a single scrape can send your fighter jet down in flames.",
+    "features": [
+      "Responsive accelerometer and touch steering controls",
+      "Multiple jet fighters to unlock, each with unique handling profiles",
+      "Time-trials and structural survival modes",
+      "Immersive 3D environments with dynamic weather and lighting"
+    ],
+    "badge": "Supersonic",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.aerochallenge",
+    "color": "from-sky-500 to-indigo-500",
+    "iconUrl": "https://play-lh.googleusercontent.com/yKLmNNVSs5mwtQMLXowxoanQumtUrlkX1XMbIu1rZKdJEgLndKfYne8deAaQqpEpz9IfrNdTLuFrr7AW23Xxjw=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/rM_vo5LqqDDFMRyZFY30nS0v4oiN5Hg1qJd0mEhq--FzeTHcYqOELVVimaUuU8tRgyuBf3PStGnrQsbV_OOdfaU=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "galaxy-shooter-space-attack",
+    "title": "Galaxy Shooter Space Attack",
+    "package": "com.sssgames.galaxy_shooter_space_attack",
+    "category": "adventure",
+    "shortDesc": "Retro arcade space combat. Upgrade your ship and defend the galaxy.",
+    "longDesc": "Relive the golden age of arcade cabinets with Galaxy Shooter. Pilot an advanced space fighter against relentless waves of alien swarms, dodge incoming bullet hells, and defeat massive screen-filling bosses. Collect scrap metal to customize and upgrade your shields, weapons, and missiles.",
+    "features": [
+      "Fast-paced shoot 'em up (shmup) retro arcade gameplay",
+      "Multiple upgrade trees for blasters, lasers, and side-drones",
+      "Epic boss fights with diverse, challenging attack patterns",
+      "Hypnotic synth-wave soundtrack and gorgeous neon particle effects"
+    ],
+    "badge": "Arcade",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sssgames.galaxy_shooter_space_attack",
+    "color": "from-indigo-600 to-purple-800",
+    "iconUrl": "https://play-lh.googleusercontent.com/t6e_kaRkBbR8qzj2CzfFIuvRCMYdmYbbhVV6N6bl8JaL-DYNGrZxS84Elx5muMJ8jO8q5c47aigTCT-eCgY=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/13JIcnrYkxeQd2lFjBb44G-uWqQ4yReRCpDGvaqqbnzgaM1lAg87DSIZB1cBIPkH1ABb38dLWkvo12JOPd5u6g=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "floodit",
+    "title": "Flood-It! Brain Puzzle Game",
+    "package": "com.play.floodit",
+    "category": "puzzle",
+    "shortDesc": "Tap colours to flood the board and fill the grid in the fewest moves possible.",
+    "longDesc": "Flood-It! Brain Puzzle Game challenges your strategic planning and logical thinking. Starting from the top-left corner, select colors to flood adjacent tiles and cover the entire board in a single uniform color. Achieve victory before you run out of moves, and test your skills across multiple grid sizes.",
+    "features": [
+      "Three difficulty levels: Easy (8x8), Medium (12x12), and Hard (16x16)",
+      "Clean, colorful interface and eye care mode to reduce strain",
+      "Smooth, high-performance gameplay optimized for all devices",
+      "Quick restart and satisfying win animations for repeatable play"
+    ],
+    "badge": "Strategy",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.floodit",
+    "color": "from-rose-500 to-pink-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/mO3FPBix8DuFJVCwEP_mgOuiXBVM80mHQ_eJ0HoUZUyv7qZaSf72uFt1iHG0VlGXNmvScomoB4V9-dpVHSIzwbM=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/mOhEvLS55YpN0eMNZrhB0utk6F-i4QOn99nWwpNLb_BswR8LYJne-wg_tNZ-8I1RaSoAwj94vJv_405hXSUJJdc=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "gravitydunk",
+    "title": "Gravity Dunk",
+    "package": "com.play.gravitydunk",
+    "category": "casual",
+    "shortDesc": "Flip gravity to slam dunk basketballs through tricky obstacles.",
+    "longDesc": "Gravity Dunk is a basketball physics game with a mind-bending puzzle hook. Instead of shooting the ball, you control gravity. Flip gravity upside down, push the ball left and right, dodge spiky defense blocks, and solve bouncy mechanical puzzles to guide the ball into the hoop.",
+    "features": [
+      "Addictive gravity-shifting mechanics combined with arcade basketball",
+      "Dozens of levels with bounce pads, teleporters, and moving hoops",
+      "Satisfying chain reactions and basketball net physics swishes",
+      "Daily trick shot trials for bonus stars"
+    ],
+    "badge": "Physics",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.gravitydunk",
+    "color": "from-orange-500 to-red-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/saVi1z13IwqDOBuw8R0TnKsdtl_7HUwg_aj77zJboUeIy7b41YL7TZr3oJJ_g42IgH8VhIadL5o1hPA41P7q=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/iOz6u_NOg1bZP5dPsJ_ExGVWfHsM_xXVE95RrfUc0it3OovbfDB-Rnm8KasnnCVSHWTSkMyEUaYnc2ZUP3ZELQ=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "puzzle",
+    "title": "Color Ball Sort Puzzle Game",
+    "package": "com.sssgames.color.ball.sort.puzzle",
+    "category": "puzzle",
+    "shortDesc": "Sort colorful balls in tubes to solve hundreds of relaxing logic puzzle levels.",
+    "longDesc": "Color Ball Sort Puzzle Game is a calming yet challenging logic game designed to train your brain. Sort colourful balls into tubes so that each tube contains only one color. Experience smooth physics animations, responsive touch controls, and clean interfaces that make brain-teasing gameplay highly satisfying.",
+    "features": [
+      "Hundreds of challenging levels with a progressive difficulty curve",
+      "Calming visual aesthetics and smooth ball-rolling physics animations",
+      "Simple one-touch controls with toggleable haptic vibration feedback",
+      "Full offline support — play anytime without requiring Wi-Fi"
+    ],
+    "badge": "Calming",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sssgames.color.ball.sort.puzzle",
+    "color": "from-emerald-400 to-teal-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/vZThXBEnS_VAv2PTwy3IM3b2_7a_s_1lp3-ScnVKFaiA6H4umwZnSm9zgS1_-AJl0IkHlK2y1ZRtwQzxWmOb2FQ=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/b-cVyjSp6h6ptSmEPYiHaqrmuFPIopjokejkS0sDczEhN6TsRtOSdRvM6-kT8NAMk7H3v6JADXbY86S9pnnUUQ=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "sip4future",
+    "title": "SIP4Future",
+    "package": "com.awareness.sip4future",
+    "category": "finance",
+    "shortDesc": "Calculate Systematic Investment Plans (SIP) and map your future wealth.",
+    "longDesc": "SIP4Future empowers users to plan their financial independence. Calculate compound interest, estimate future returns on Systematic Investment Plans (SIP), compare lumpsum vs. recurring deposits, and visualize your wealth growth over time with interactive charts.",
+    "features": [
+      "Instant calculations for SIP returns, wealth gain, and target goals",
+      "Interactive pie charts and annual breakdowns of your investments",
+      "Inflation adjustment toggles for realistic long-term projections",
+      "Clean financial reports exportable as neat PDF summaries"
+    ],
+    "badge": "Finance",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.awareness.sip4future",
+    "color": "from-blue-600 to-cyan-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/-HpHU08WvUvpQpf2Isj1ajonblALiNCGRydbex6KZypf15gcQ3Xp1XxYIJGtZORWTk2ODnNqE3xuQJQLUoV_P3g=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/SNrbxwTO7Ic0lecEETXiI9r_U_GYttD9_P1GN0AOEusg03M9Vg02mRao-6pNuV4OsvpumZRjgKV9uEaQIzcQ=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "reservoirinflowscalculator",
+    "title": "Reservoir Inflows Calculator",
+    "package": "com.tool.reservoirinflowscalculator",
+    "category": "education",
+    "shortDesc": "An advanced calculator for hydrologists and reservoir inflow analysts.",
+    "longDesc": "Reservoir Inflows Calculator is a professional tool designed to calculate water inflow rates, storage levels, and discharge volumes. Perfect for hydrology students, civil engineers, and environmental scientists, it offers standard formula presets and graphing utilities.",
+    "features": [
+      "Hydrology calculations for inflows, storage, and discharge",
+      "Custom formula entry and standard presets library",
+      "Interactive tables and graphical volume plotting",
+      "Export calculations report as CSV format"
+    ],
+    "badge": "Scientific",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.tool.reservoirinflowscalculator",
+    "color": "from-sky-600 to-blue-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/PrEeM8BKvVP-ZU0diRCIuI_Yx3ccETloO3bkXk3EExctTpeMU69bTVDvOZZqz0yAMfIMlJ8lFmJuiwLpqfnRVQ=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/u7vWMKc0S67ZhIa--m8mbtUq8J8mrfnDroj-VFzpVxtvD0y25Q0hl7dM8zhaWIPrCZ87qors3Kbabebc1RMXHg=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "snakesladderscardflip",
+    "title": "Snake & Ladder Card Flip Game",
+    "package": "com.sss.snakesladderscardflip",
+    "category": "board",
+    "shortDesc": "A card-driven modern twist on the classic family board game.",
+    "longDesc": "Ditch the dice! Snake & Ladder Card Flip Game merges board game luck with tactical deck building. Players flip dynamic action cards to decide their steps, climb ladders, dodge venomous snakes, and cast spells on opponents. It brings fresh depth and excitement to a nostalgic childhood classic.",
+    "features": [
+      "Innovative card-flipping mechanics replacing traditional dice",
+      "Special action cards: Shield, Swap places, Double step, and Freeze",
+      "Beautifully illustrated boards with animated snakes and ladders",
+      "Play solo against smart bots or local multiplayer"
+    ],
+    "badge": "Tactical",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sss.snakesladderscardflip",
+    "color": "from-violet-600 to-fuchsia-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/aoOQ_6gBP-6EyA6WL_2cuQQn3RARfPW_kSM_-tqgW7d5bKx5dib887E6GSN15RBpWZGuN518bGyJ2TugqDdY23Y=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/VKzbl2RcG-mtVp5tgzf_DCcxcuJgcFBZTRMPxXXj2HqLlBjPccucphHpcJnSCPjsohBlEkIpW2hGQe9z1bED=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "digitalsnake",
+    "title": "Digital Snake",
+    "package": "com.play.digitalsnake",
+    "category": "arcade",
+    "shortDesc": "A modern glow-in-the-dark arcade reconstruction of the retro snake game.",
+    "longDesc": "Digital Snake reimagines the classic Nokia arcade classic. Control your snake through neon matrices, gobble glowing energy cubes to grow larger, and avoid colliding with your own tail or the perimeter walls. It offers multiple game speeds and retro neon visual styles.",
+    "features": [
+      "Classic gameplay updated with neon matrix themes",
+      "Fluid 4-way swipe and virtual D-pad options",
+      "Power-ups: Speed boost, size shrink, and shield",
+      "Global leaderboard tracking high-score achievements"
+    ],
+    "badge": "Retro",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.digitalsnake",
+    "color": "from-orange-500 to-red-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/N8LvxS16PS24hIFeRxHGFtHsPJj8qiZVjRK7V1dVspw4kCaJnV0ScyHT_zYxHw8Ql00RLlvCClioT5ERKODo2Q=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/RfOqj8hqGblxo8bM4tnMnpOA7kF2bybMyuQA6fbIUgJXJf3zMitavw5S7j_4Y_sTEsF_m_1hSKb55TAxKfw7=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "colorliquidsortpuzzle",
+    "title": "Color Liquid Sort Puzzle",
+    "package": "com.play.colorliquidsortpuzzle",
+    "category": "puzzle",
+    "shortDesc": "Sort colored water between flasks in a relaxing liquid logic test.",
+    "longDesc": "A smooth and satisfying liquid sorting game. Pour colored water from tube to tube until all flasks contain only one color. Each move requires calculating space constraints and matching colors. It's a calming, zen-like game designed to relieve stress while gently training your brain.",
+    "features": [
+      "Smooth liquid physics and beautiful color gradients",
+      "One-finger controls for comfortable play",
+      "Hundreds of unique, brain-teasing levels",
+      "No penalties or time limits; restart anytime"
+    ],
+    "badge": "Calming",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.colorliquidsortpuzzle",
+    "color": "from-teal-400 to-emerald-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/mVMZRT28hTDJys1oNlDz4QZ3FD3RUKt9X5I4CM_8WAgKWegStfsnemur7ul6F478LQlS74cK0672YeMGByiWLA=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/6ZdZDL_ZEd_GsL2xombnfltCdt6w3sG-1qUqbGWLYvB0DzcjGKymk5LDcG_JnxdGuHBF9gR7MMbMD3_FNFTmzw=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "snakepuzzle",
+    "title": "Snake Out Puzzle Escape Game",
+    "package": "com.play.snakepuzzle",
+    "category": "puzzle",
+    "shortDesc": "Solve gridlocked levels and guide trapped snakes to freedom.",
+    "longDesc": "Snake Out is a parking-lot style grid puzzle with a serpentine twist. Slide colorful snakes along their tracks to unravel the massive snake pile-up. You must carefully schedule their movement order to avoid head-on crashes and successfully guide each snake out of the grid escape gates.",
+    "features": [
+      "Dozens of gridlock stages with unique snake patterns",
+      "Stunning 3D-styled flat graphics and smooth animations",
+      "Unlockable snake skins and colorful theme templates",
+      "Brain-stimulating gameplay that gets progressively challenging"
+    ],
+    "badge": "Trending",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.snakepuzzle",
+    "color": "from-lime-500 to-green-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/KK6Tk9lV1Ef6pN7s09Z4NV-0QVSjJy11W-x-iUJPpgPo0P42_brek7xlySeSu8DS-uxNHgzW7aVG2hLt2TIm3vc=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/xPn3NPvJHaLbUwkSpp30ROj_nSU9gBkkze4iybzh3rxYbwjVbvw_9Hta6SYSHYLqetvv4lvO7kWM1YhA81wD=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "digitalhockey",
+    "title": "Digital Hockey",
+    "package": "com.play.digitalhockey",
+    "category": "board",
+    "shortDesc": "Neon-drenched air hockey with ultra-responsive touch physics.",
+    "longDesc": "Digital Hockey turns your screen into a high-speed air hockey table. Featuring fluid, ultra-responsive touch controls and realistic puck physics, it delivers intense competitive matches. Play against three tiers of AI difficulty or battle local friends in a head-to-head 2-player mode.",
+    "features": [
+      "Ultra-fluid 60FPS physics engine optimized for touch screens",
+      "Glowing neon retro aesthetics and satisfying collision sparks",
+      "Single-player championship tournaments and endless arcade modes",
+      "Intense local 2-player split screen mode"
+    ],
+    "badge": "Arcade",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.digitalhockey",
+    "color": "from-pink-500 to-rose-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/yWfc22DuQfm4K2wIMK9JxZ0JgQrFC6ik5YvszWVOF0gSz5_vq2zDQ391DmpJzMBE_oM0oMMB4fSNwS7e5kwnAw=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/xBB9RMvbzhO-dbygTMiU2Jl2d3frpbUKKv07LLxkpmSZrEMhnoVqMnnpxp0UN_lRROM0Dolgj0hgrG1gEljl=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "digitalpipelink",
+    "title": "Digital Pipe Link",
+    "package": "com.play.digitalpipelink",
+    "category": "puzzle",
+    "shortDesc": "Establish digital links in a futuristic matrix puzzle grid.",
+    "longDesc": "Digital Pipe Link challenges players to establish digital data linkages through a grid matrix of network nodes. Map your paths strategically to connect all systems without colliding or cutting other connections. It offers a sleek cyberpunk interface and deep planning challenges.",
+    "features": [
+      "Sleek cyberpunk matrix visual aesthetic",
+      "Hundreds of logical wire routing puzzles",
+      "Innovative grid mechanics featuring directional splitters",
+      "Immersive electronic background tracks"
+    ],
+    "badge": "Matrix",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.digitalpipelink",
+    "color": "from-violet-500 to-fuchsia-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/PdMJ8bqCW9G3Os4PpTJaOmq3fl8DlIfKSHL0bSswlqesvOVO_GiMlghjDpt6LQILisoTASqvTfTCUQC0RxE_ww=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/ilRG6vgI2CeGaA3aFuvMJ24EMmUoYhQIEoO-KO93GbdBHSEZ3lyMsZ9I2d4S_MRLLe7183byF_RQEMPc3jfeBA=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "mytimetable",
+    "title": "My Timetable",
+    "package": "com.planning.mytimetable",
+    "category": "productivity",
+    "shortDesc": "A sleek, highly organized scheduler for classes, work, and tasks.",
+    "longDesc": "My Timetable is the ultimate companion app for students, teachers, and professionals. Organize your weekly schedule, track course assignments, set custom notification reminders for upcoming sessions, and sync your tasks inside a beautiful, ad-free calendar dashboard.",
+    "features": [
+      "Clean weekly and daily calendar overview layouts",
+      "Color-coded subjects, tags, and custom task priority lists",
+      "Smart notifications for upcoming classes and exams",
+      "Seamless offline support with local secure database backups"
+    ],
+    "badge": "Productivity",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.planning.mytimetable",
+    "color": "from-emerald-500 to-teal-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/SZZNoszHRPRqJGP0xJ2CAQRmjzf0aOu3vTia5fqg8NhzZ55_hvor6hrKR9Mc61Pfg2LoviEL2z31jNn_qNU5Mg=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/H04_nvevScbPZqA7TtyU3ZmF57oD3ai6vhmpIQVldzAb5MYeB9TpX4orUtmpGkpy5T3zhMWNWnNEqnVuHZOiGg=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "puzzle",
+    "title": "Nut Color Sort Puzzle Game",
+    "package": "com.sssgames.nut.color.sort.puzzle",
+    "category": "puzzle",
+    "shortDesc": "Sort colorful nuts on metallic bolts in this satisfying puzzle.",
+    "longDesc": "Immerse yourself in a tactile sorting challenge. Nut Color Sort combines ASMR-like metal clinks with engaging sorting mechanics. Organize scrambled colored nuts onto their matching bolts until every bolt holds a single uniform color. It starts easy but becomes a complex test of logic and planning.",
+    "features": [
+      "Ultra-satisfying metal clinking sound effects (ASMR)",
+      "Vibrant industrial-chic visual design",
+      "Undos, restarts, and extra bolts available for tough levels",
+      "Teases logic skills with a progressive difficulty curve"
+    ],
+    "badge": "ASMR",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sssgames.nut.color.sort.puzzle",
+    "color": "from-amber-500 to-orange-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/6kUKGHkuf44o3TMAEYcsixI0amGJvPcW8pOfxvS7SRPq1EEy1D0N4S-VxNjQOxqWJOtyUO6xcX-dyE8hO9Nay3M=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/8hA4gh5YeA5Uwi5KtmhegWBuGpepW0gWxa56TOppgNZrhKWT-TVaSEEYzVpChttVmu08A8spWyaiqGzNCn4hiA=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "pipelinkpuzzle",
+    "title": "Connect Pipes: Flow Puzzle",
+    "package": "com.play.pipelinkpuzzle",
+    "category": "puzzle",
+    "shortDesc": "Link matching color nodes with pipe lines to fill the board.",
+    "longDesc": "Connect Pipes is a classic flow-based puzzle game. Connect pairs of colorful nodes by drawing pipes across the grid. Be careful—pipes will break if they cross or overlap! Cover the entire board to solve each level and achieve a perfect grid score.",
+    "features": [
+      "Grid sizes ranging from 5x5 to 10x10",
+      "Neon pipe flows and dynamic connection glow effects",
+      "Daily puzzles to keep your mind sharp",
+      "Clean UI optimized for high-performance mobile play"
     ],
     "badge": "Popular",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.parkingjam.drawline",
-    "color": "from-amber-500 to-red-600",
-    "iconUrl": "https://play-lh.googleusercontent.com/tX8qSV7InhRpXX3iBjAw6zZQy00Qi2gYlX6mHCrofpxc5RUHeaSRAIid0G0NWXpJWV8uZ6Oih7Rv7tuQMmOmSg=s180-rw",
-    "featureGraphicUrl": "https://play-lh.googleusercontent.com/a3F9HSw0aG8xn3XD7v9Ivwr10ur_fFTLW5ibz26bIFYn8ir8aOFbErbrl9Gah89SXunfw5FzK-J-zbu1lEzO8A=w832-h470-rw",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.pipelinkpuzzle",
+    "color": "from-cyan-500 to-blue-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/Yd6OxsSNugqMKKo0peDh9D7q7Os7OQcp5Yv1qPVrrhmUCqLGBxy5HrkpI2Zd5FXFk7UCFZGg72OIrctlI63S=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/teW0NbgDzg6ROOHM67cmRhtfO5yPooylF4Nr5oL_1--vQJ2lKAlxXbat4QkUrn0Aynprg-PJ-395saKQK6Si=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "arrowpuzzle",
+    "title": "Arrow Puzzle",
+    "package": "com.play.arrowpuzzle",
+    "category": "puzzle",
+    "shortDesc": "A mind-bending logic puzzle testing your spatial reasoning.",
+    "longDesc": "Arrow Puzzle is a sleek, minimalist brainteaser where players must rotate and align grid-based arrows to form clear pathways. Each level introduces unique obstacles and directional rules, demanding planning and spatial logic. Designed with smooth haptic feedback and clean aesthetics, it's the perfect daily exercise for your brain.",
+    "features": [
+      "Over 200 hand-crafted spatial logic levels",
+      "Minimalist design with soothing soundscapes",
+      "Increasing complexity with custom lock tiles and gates",
+      "No timer pressure — play and solve at your own pace"
+    ],
+    "badge": "Featured",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.arrowpuzzle",
+    "color": "from-blue-500 to-indigo-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/3QXAWvPNzOK_tK_r0NmawYmkEBbelgMn-_9N1yrcEYk7vX79wrRbXQ8HZBYp8JMDOOJLnb4MRGE4L9Wq6isAb-4=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/4ZeVW3zoQKs5NX2x1LhOtYmABklE9uOxCmJftEYNBlPMoakVzCVQzk9LlZT6B9T7M2WXPAourPVxY-R15-nB0A=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "tictactoe-2playerxoxochallenge",
+    "title": "Tic Tac Toe - 2 Player XO Game",
+    "package": "com.play.tictactoe_2playerxoxochallenge",
+    "category": "puzzle",
+    "shortDesc": "Challenge your friends in intense local 2-player XO board game tournaments.",
+    "longDesc": "Tic Tac Toe - 2 Player XO Game is designed for competitive local play. Battle your friends, family, or the AI in quick-fire rounds of noughts and crosses. Keep track of your winning streaks with an integrated score scoreboard, and unlock sleek custom symbols.",
+    "features": [
+      "Optimized for dual local players on a single screen",
+      "Interactive match history and scoreboard tracking",
+      "Adaptive AI that learns from your gameplay patterns",
+      "Minimalist, high-performance interface with quick restart"
+    ],
+    "badge": "2-Player",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.tictactoe_2playerxoxochallenge",
+    "color": "from-cyan-500 to-blue-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/VPJo92inDRgPutX3AQPxsDAo1ZRMgyyJnmL3CMninRfi2XfSlSXgfH8ScCwt82hOKJNdyrdNzeCjAI3cwGga=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/TmjoYHoy9fd3OV8UeKfkiwx5JfPoIwejty3P9_HpLU9HuygLRztubInChFq5GgdLGLogCPkspLr2QL4g8whN=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "magicsquare15",
+    "title": "Magic Square 15",
+    "package": "com.play.magicsquare15",
+    "category": "puzzle",
+    "shortDesc": "The ultimate arithmetic grid challenge aiming for the sum of 15.",
+    "longDesc": "Magic Square 15 brings the ancient mathematical grid game to your fingertips. Slide and place numbered tiles (1 to 9) in a 3x3 grid such that every row, column, and diagonal sums up to exactly 15. A perfect game for lovers of sudoku, math puzzles, and clean numerical challenges.",
+    "features": [
+      "Classic mathematical logic puzzles reconstructed for mobile",
+      "Timeless wooden-block and flat neo-brutalist themes",
+      "Instant board validation to check your mathematical sums",
+      "Detailed stat tracker and speed run mode"
+    ],
+    "badge": "Math",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.magicsquare15",
+    "color": "from-rose-500 to-pink-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/NWhRZX4v0oLasJs80MiyKqPa8CX2AzYdJVnv_iIQ0Lbve4O4YCw-xUQ17Aa3hWBbIbIbXst0yk0Rl83aNWu-Qnc=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/_5tlBn98fFkX3GvlGMhUmbrP-uuqeqTwHUYFpEPp12vJ3rnqx0Vyc9nRiigMYd5FxYiaNVRmef8Jl1rT9y93=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "snakesvsladders",
+    "title": "Snakes Vs Ladders",
+    "package": "com.play.snakesvsladders",
+    "category": "casual",
+    "shortDesc": "The ultimate classic board game of Snakes and Ladders with fluid animations.",
+    "longDesc": "Snakes Vs Ladders brings the beloved classic to life on your mobile screen. Roll the dice, climb ladders, and slide down slithering snakes in a race to the 100th tile. Play against friends locally or test your luck against smart AI players in highly customized rooms.",
+    "features": [
+      "Classic board layouts with smooth dice rolling physics",
+      "1-4 player offline pass-and-play multiplayer",
+      "Challenging AI bots with variable difficulty settings",
+      "Beautiful, modern board illustrations and tokens"
+    ],
+    "badge": "Classic",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.snakesvsladders",
+    "color": "from-emerald-500 to-green-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/19hvltgQVXaYOId-yhgB_NNNosysQM4HwyLPPKDN-0NR2qd52qVBER1ilXb0cXnoVjm_VyYNhBKE41H2rDvXGw=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/diBeVpb2GfHWFyJFJ6yq176GdIf2ynPJfXY5RVQ908OvNTie3tD_GgD-xGQDCq6SiKkcjy1GRCOzMpr_qHpgjQ=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "multiplicationmaster",
+    "title": "Multiplication Master",
+    "package": "com.learn.multiplicationmaster",
+    "category": "education",
+    "shortDesc": "A fun and interactive educational tool to master multiplication tables.",
+    "longDesc": "Multiplication Master makes learning arithmetic tables engaging and fast. Perfect for students and children, it features interactive quizzes, audio-visual feedback, progress tracking, and gamified challenges that turn math practice into a fun daily habit.",
+    "features": [
+      "Dynamic quizzes and timed multiplication challenges",
+      "Interactive audio pronunciations for tables 1 to 50",
+      "Detailed progress scorecard tracking speed and accuracy",
+      "Kid-safe design with positive reinforcement gamification"
+    ],
+    "badge": "Educational",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.learn.multiplicationmaster",
+    "color": "from-yellow-500 to-amber-600",
+    "iconUrl": "https://play-lh.googleusercontent.com/MFZfZwpKPvpyBG-crO0Ucb3AoS5dZuMFl4QWEpLXVVQwnzUy7djQJ9koASs6mlouxETBpqVCj-FTinbx969s=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/jPFUtRkk2D2DNJ92z5JmgYy5L4wRMl_oJO9TGGpZ4tr_UY7wWLhbmnSlzEz1CwSXFdxIEFR_UtMWKLBl5aJz-A=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "tictactoe-ultimate",
+    "title": "Tic Tac Toe: Ultimate",
+    "package": "com.play.tictactoe_ultimate",
+    "category": "puzzle",
+    "shortDesc": "Experience the classic board game with smart AI and glowing neon graphics.",
+    "longDesc": "Tic Tac Toe: Ultimate modernizes the traditional paper-and-pencil game. Play against a highly adaptive AI that matches your skill level, or challenge friends locally. Explore expanded board sizes (3x3 up to 7x7) and alternative victory rules that turn a simple game into a deep tactical duel.",
+    "features": [
+      "Single-player mode with 4 difficulty settings",
+      "Local pass-and-play multiplayer",
+      "Multiple board layouts (3x3, 5x5, 7x7 grids)",
+      "Stunning neon glow visual theme"
+    ],
+    "badge": "Updated",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.tictactoe_ultimate",
+    "color": "from-purple-500 to-indigo-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/PEbUKgoYQNR1k75dQ3lK0Cuo9_OkEyK0a9n4rYxkcbnJmq49AK5lkf3_8puo9Y0BP_xn4zPH4je--Pufsob8=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/D85Bz0cORLEpvQIerKZvpuxinZrAX8O3xWg5622iMp61pktZoyHw183mbfuEEOJTFI2GKswDKGcCXRxTjfqf=w832-h470-rw",
     "screenshots": []
   }
 ];
@@ -1073,11 +1093,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Counter animation function counting up from 0 to live apps total (40)
+  // Counter animation function counting up from 0 to live apps total (41)
   function animateLiveAppsCounter() {
     const counterElements = document.querySelectorAll("#live-apps-counter, #live-apps-count, .stat-apps");
     if (!counterElements || counterElements.length === 0) return;
-    const targetValue = appsData.length || 40;
+    const targetValue = appsData.length || 41;
     const duration = 3400; // 3.4 seconds smooth count-up animation
     const startTime = performance.now();
 
