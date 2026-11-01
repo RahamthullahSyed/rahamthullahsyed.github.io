@@ -1,6 +1,46 @@
 // Apps Data for Sana Shahroz Sarah
 const appsData = [
   {
+    "id": "colorlink",
+    "title": "Color Link: Connect Puzzle",
+    "package": "com.play.colorlink",
+    "category": "puzzle",
+    "shortDesc": "Enhanced UI, Logic and UX of the app.",
+    "longDesc": "Enhanced UI, Logic and UX of the app.",
+    "features": [
+      "Intuitive puzzle mechanics with smooth controls",
+      "Modern visual styling with dynamic particle feedback",
+      "Hundreds of progressive, brain-training puzzle levels",
+      "Full offline support with zero interruption"
+    ],
+    "badge": "New",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.colorlink",
+    "color": "from-blue-500 to-indigo-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/Bf_tfFhQvPdvdlGAkTAcmL3uzk-_ZP4f1TXbjmOQ8zB3K1Teq6jZEhELjlaCj5DUyQf1dzwisVzN-E0teFD1=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/Z8uKoAXI_8ddv-cXrKfwidguSYfCXe9heeeLg91VJKPa_QpLF_9BvburLKlKgeTK-KYB97qXVduxajmZiQhN=w832-h470-rw",
+    "screenshots": []
+  },
+  {
+    "id": "mergedice",
+    "title": "Merge Dice: Brain Puzzle Game",
+    "package": "com.play.mergedice",
+    "category": "puzzle",
+    "shortDesc": "Enhanced UI, UX and Logic of the app.",
+    "longDesc": "Enhanced UI, UX and Logic of the app.",
+    "features": [
+      "Intuitive puzzle mechanics with smooth controls",
+      "Modern visual styling with dynamic particle feedback",
+      "Hundreds of progressive, brain-training puzzle levels",
+      "Full offline support with zero interruption"
+    ],
+    "badge": "New",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.mergedice",
+    "color": "from-blue-500 to-indigo-700",
+    "iconUrl": "https://play-lh.googleusercontent.com/3F3oAKI07s6h2CQ8GbxvlSyxn5AJbkJsquiqnBb3aVDtuC3y4bOGW7wYwUe8I_QSlH9hmOSXXjyUihp8Zsoy=s180-rw",
+    "featureGraphicUrl": "https://play-lh.googleusercontent.com/15tQgH6tjdHCJKxIsAcdXstfEyq7Uc2lKTnK9rxxhlPSbZgry0GjGIytSIwk3dwjhqjxzcHhbYwlQujmBhO0nQ=w832-h470-rw",
+    "screenshots": []
+  },
+  {
     "id": "colormaze",
     "title": "Color Maze: Paint Puzzle",
     "package": "com.play.colormaze",
@@ -1097,7 +1137,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function animateLiveAppsCounter() {
     const counterElements = document.querySelectorAll("#live-apps-counter, #live-apps-count, .stat-apps");
     if (!counterElements || counterElements.length === 0) return;
-    const targetValue = appsData.length || 41;
+    const targetValue = appsData.length || 43;
     const duration = 3400; // 3.4 seconds smooth count-up animation
     const startTime = performance.now();
 
