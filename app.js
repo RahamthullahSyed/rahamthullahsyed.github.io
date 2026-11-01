@@ -5,17 +5,17 @@ const appsData = [
     "title": "Color Link: Connect Puzzle",
     "package": "com.play.colorlink",
     "category": "puzzle",
-    "shortDesc": "Enhanced UI, Logic and UX of the app.",
-    "longDesc": "Enhanced UI, Logic and UX of the app.",
+    "shortDesc": "Build color chains, reach targets, and unleash explosive power-ups!",
+    "longDesc": "Color Link: Connect Puzzle is an addictive color-matching puzzle game where you connect matching balls, build longer chains, create powerful rockets and bombs, and complete challenging level targets before your moves run out.",
     "features": [
-      "Intuitive puzzle mechanics with smooth controls",
-      "Modern visual styling with dynamic particle feedback",
-      "Hundreds of progressive, brain-training puzzle levels",
-      "Full offline support with zero interruption"
+      "Connect matching color balls to build powerful chains",
+      "Create and combine rockets & bombs for cascading board blasts",
+      "Hundreds of objective-based target levels to master",
+      "Smooth drag-and-connect controls with offline play"
     ],
     "badge": "New",
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.colorlink",
-    "color": "from-blue-500 to-indigo-700",
+    "color": "from-purple-500 to-indigo-700",
     "iconUrl": "https://play-lh.googleusercontent.com/Bf_tfFhQvPdvdlGAkTAcmL3uzk-_ZP4f1TXbjmOQ8zB3K1Teq6jZEhELjlaCj5DUyQf1dzwisVzN-E0teFD1=s180-rw",
     "featureGraphicUrl": "https://play-lh.googleusercontent.com/Z8uKoAXI_8ddv-cXrKfwidguSYfCXe9heeeLg91VJKPa_QpLF_9BvburLKlKgeTK-KYB97qXVduxajmZiQhN=w832-h470-rw",
     "screenshots": []
@@ -25,13 +25,13 @@ const appsData = [
     "title": "Merge Dice: Brain Puzzle Game",
     "package": "com.play.mergedice",
     "category": "puzzle",
-    "shortDesc": "Enhanced UI, UX and Logic of the app.",
-    "longDesc": "Enhanced UI, UX and Logic of the app.",
+    "shortDesc": "Merge dice and make combos in a fun brain puzzle. Beat your high score!",
+    "longDesc": "Merge Dice: Brain Puzzle Game is a fun and challenging dice merge puzzle. Place dice on the 5×5 board, merge 3 or more matching dice to create higher-value dice, craft powerful bombs from matching sixes, and trigger exciting chain reactions to beat your personal best!",
     "features": [
-      "Intuitive puzzle mechanics with smooth controls",
-      "Modern visual styling with dynamic particle feedback",
-      "Hundreds of progressive, brain-training puzzle levels",
-      "Full offline support with zero interruption"
+      "5×5 strategic board with dice merge mechanics",
+      "Combine 3+ matching sixes to trigger explosive Bombs",
+      "Tactical Undo and Trash options to survive longer",
+      "Full offline play with responsive haptic feedback"
     ],
     "badge": "New",
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.play.mergedice",
