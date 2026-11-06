@@ -911,10 +911,32 @@ document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("search-input");
   const searchClearBtn = document.getElementById("search-clear-btn");
   const searchForm = document.getElementById("search-form");
+  const catalogSort = document.getElementById("catalog-sort");
+  const viewGridBtn = document.getElementById("view-grid-btn");
+  const viewListBtn = document.getElementById("view-list-btn");
+  const visibleCountEl = document.getElementById("visible-count");
+  const totalCountEl = document.getElementById("total-count");
+
+  // Modal elements
+  const modalOverlay = document.getElementById("app-modal");
+  const modalBanner = document.getElementById("modal-banner");
+  const modalIcon = document.getElementById("modal-icon");
+  const modalTitle = document.getElementById("modal-title");
+  const modalBadge = document.getElementById("modal-badge");
+  const modalCategory = document.getElementById("modal-category");
+  const modalFeatures = document.getElementById("modal-features");
+  const modalDesc = document.getElementById("modal-desc");
+  const modalPlayLink = document.getElementById("modal-play-link");
+  const modalShareBtn = document.getElementById("modal-share-btn");
+  const modalCloseBtn = document.getElementById("modal-close-btn");
+  const modalBackdrop = document.getElementById("modal-backdrop");
+  let currentModalApp = null;
 
   let activeCategory = "all";
+  let currentSort = "newest";
+  let currentView = "grid";
 
-  // Escape HTML helper to prevent XSS issues when rendering user search query
+  // Escape HTML helper
   function escapeHtml(string) {
     return String(string).replace(/[&<>"']/g, function (s) {
       return {
@@ -927,13 +949,194 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Render Apps list
+  function capitalizeFirst(str) {
+    const labels = {
+      puzzle: "Puzzle Games",
+      board: "Board Games",
+      casual: "Casual Games",
+      arcade: "Arcade Games",
+      adventure: "Adventure Games",
+      education: "Educational Apps",
+      productivity: "Productivity Apps",
+      finance: "Finance Apps"
+    };
+    return labels[str] || (str.charAt(0).toUpperCase() + str.slice(1));
+  }
+
+  // Toast Notification
+  function showToast(msg) {
+    const toast = document.getElementById("toast");
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add("show");
+    setTimeout(() => toast.classList.remove("show"), 2800);
+  }
+
+  // 1. Dynamic Category Counts Calculation
+  function updateCategoryCounts() {
+    const counts = { all: appsData.length };
+    appsData.forEach(app => {
+      counts[app.category] = (counts[app.category] || 0) + 1;
+    });
+    for (const [cat, count] of Object.entries(counts)) {
+      const el = document.getElementById(`count-${cat}`);
+      if (el) el.textContent = count;
+    }
+    if (totalCountEl) totalCountEl.textContent = appsData.length;
+  }
+
+  // 2. Studio Spotlight Section (Supercell Key Visual Showcase)
+  function renderSpotlight() {
+    const container = document.getElementById("spotlight-container");
+    if (!container || appsData.length === 0) return;
+    const featured = appsData[0]; // Newest published application
+    
+    const featuresHtml = (featured.features || []).slice(0, 3).map(f => `
+      <span class="spotlight-chip">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        ${escapeHtml(f)}
+      </span>
+    `).join("");
+
+    container.innerHTML = `
+      <div class="spotlight-banner-wrapper" style="background-image: url('${featured.featureGraphicUrl}');">
+        <div class="spotlight-banner-overlay"></div>
+      </div>
+      <div class="spotlight-content">
+        <div>
+          <div class="spotlight-top-badge-row">
+            <span class="spotlight-flagship-pill">
+              <span class="spotlight-pulse-dot"></span>
+              Latest Release
+            </span>
+            <span class="app-badge bg-gradient-to-r ${featured.color} text-white">${featured.badge || "Featured"}</span>
+          </div>
+          <div class="spotlight-app-identity" style="margin-top: 1rem;">
+            <img class="spotlight-app-icon" src="${featured.iconUrl}" alt="${featured.title} icon" />
+            <div class="spotlight-app-meta">
+              <span class="spotlight-category-tag">${capitalizeFirst(featured.category)}</span>
+              <h3>${featured.title}</h3>
+            </div>
+          </div>
+        </div>
+        <p class="spotlight-desc">${featured.shortDesc}</p>
+        <div class="spotlight-chips-row">${featuresHtml}</div>
+        <div class="spotlight-actions-row">
+          <a href="${featured.playStoreUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L18.81,13.12C19.46,12.47 19.46,11.53 18.81,10.88L16.81,8.88L14.41,11.28L16.81,15.12M14.41,12.72L4.69,22.44C4.85,22.48 5.03,22.5 5.21,22.5C5.7,22.5 6.17,22.28 6.5,21.92L14.41,12.72M14.41,11.28L6.5,2.08C6.17,1.72 5.7,1.5 5.21,1.5C5.03,1.5 4.85,1.52 4.69,1.56L14.41,11.28Z"/>
+            </svg>
+            Get on Google Play
+          </a>
+          <button type="button" class="spotlight-preview-btn" id="spotlight-preview-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            Quick Preview
+          </button>
+        </div>
+      </div>
+    `;
+
+    const previewBtn = container.querySelector("#spotlight-preview-btn");
+    if (previewBtn) {
+      previewBtn.addEventListener("click", () => openModal(featured));
+    }
+  }
+
+  // 3. App Detail Modal (In-Page Sheet)
+  function openModal(app) {
+    currentModalApp = app;
+    if (!modalOverlay) return;
+    if (modalBanner) modalBanner.style.backgroundImage = `url('${app.featureGraphicUrl}')`;
+    if (modalIcon) {
+      modalIcon.src = app.iconUrl;
+      modalIcon.alt = `${app.title} icon`;
+    }
+    if (modalTitle) modalTitle.textContent = app.title;
+    if (modalCategory) modalCategory.textContent = capitalizeFirst(app.category);
+    if (modalBadge) {
+      if (app.badge) {
+        modalBadge.textContent = app.badge;
+        modalBadge.className = `app-badge bg-gradient-to-r ${app.color} text-white`;
+        modalBadge.style.display = "inline-block";
+      } else {
+        modalBadge.style.display = "none";
+      }
+    }
+    if (modalFeatures) {
+      modalFeatures.innerHTML = (app.features || []).map(f => `
+        <li class="feature-item">
+          <svg class="feature-check-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+          <span>${escapeHtml(f)}</span>
+        </li>
+      `).join("");
+    }
+    if (modalDesc) {
+      const cleanDesc = (app.longDesc || app.shortDesc || "")
+        .replace(/#{1,6}\s+/g, '')
+        .replace(/\*\*(.*?)\*\*/g, '$1')
+        .replace(/\*(.*?)\*/g, '$1')
+        .replace(/•\s+/g, '• ');
+      modalDesc.textContent = cleanDesc;
+    }
+    if (modalPlayLink) modalPlayLink.href = app.playStoreUrl;
+
+    modalOverlay.classList.add("active");
+    modalOverlay.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeModal() {
+    if (!modalOverlay) return;
+    modalOverlay.classList.remove("active");
+    modalOverlay.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+    currentModalApp = null;
+  }
+
+  if (modalCloseBtn) modalCloseBtn.addEventListener("click", closeModal);
+  if (modalBackdrop) modalBackdrop.addEventListener("click", closeModal);
+  
+  window.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && modalOverlay && modalOverlay.classList.contains("active")) {
+      closeModal();
+    }
+    if (e.key === "/" && document.activeElement !== searchInput) {
+      e.preventDefault();
+      if (searchInput) searchInput.focus();
+    }
+  });
+
+  if (modalShareBtn) {
+    modalShareBtn.addEventListener("click", async () => {
+      if (!currentModalApp) return;
+      const shareData = {
+        title: currentModalApp.title,
+        text: `Check out ${currentModalApp.title} on Google Play:`,
+        url: currentModalApp.playStoreUrl
+      };
+      if (navigator.share && navigator.canShare && navigator.canShare(shareData)) {
+        try {
+          await navigator.share(shareData);
+        } catch (err) {}
+      } else {
+        try {
+          await navigator.clipboard.writeText(currentModalApp.playStoreUrl);
+          showToast("✓ Link copied to clipboard!");
+        } catch (err) {
+          showToast("Play Store link: " + currentModalApp.playStoreUrl);
+        }
+      }
+    });
+  }
+
+  // 4. Render Apps with Sort & Filter
   function renderApps(category = "all") {
     appsGrid.innerHTML = "";
     
     const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
     
-    // Toggle search clear button visibility
     if (searchClearBtn) {
       if (query.length > 0) {
         searchClearBtn.classList.add("show");
@@ -942,7 +1145,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
 
-    const filteredApps = appsData.filter(app => {
+    let filteredApps = appsData.filter(app => {
       const matchesCategory = category === "all" || app.category === category;
       const matchesSearch = !query || 
         app.title.toLowerCase().includes(query) ||
@@ -952,6 +1155,19 @@ document.addEventListener("DOMContentLoaded", () => {
         (app.features && app.features.some(f => f.toLowerCase().includes(query)));
       return matchesCategory && matchesSearch;
     });
+
+    // Apply Sorting
+    if (currentSort === "az") {
+      filteredApps.sort((a, b) => a.title.localeCompare(b.title));
+    } else if (currentSort === "za") {
+      filteredApps.sort((a, b) => b.title.localeCompare(a.title));
+    } else if (currentSort === "category") {
+      filteredApps.sort((a, b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title));
+    }
+
+    if (visibleCountEl) {
+      visibleCountEl.textContent = filteredApps.length;
+    }
 
     if (filteredApps.length === 0) {
       if (query) {
@@ -987,7 +1203,6 @@ document.addEventListener("DOMContentLoaded", () => {
         ? `<span class="app-badge bg-gradient-to-r ${app.color} text-white">${app.badge}</span>` 
         : "";
 
-      // Feature graphic banner HTML
       const bannerHtml = app.featureGraphicUrl 
         ? `<div class="app-card-banner-wrapper"><div class="app-card-banner" style="background-image: url('${app.featureGraphicUrl}');"></div></div>`
         : `<div class="app-card-banner-wrapper"><div class="app-card-banner bg-gradient-to-br ${app.color}"></div></div>`;
@@ -1006,25 +1221,31 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="app-card-content-new">
             <p class="app-desc">${app.shortDesc}</p>
             <div class="app-card-footer-new">
-              <a href="${app.playStoreUrl}" target="_blank" rel="noopener noreferrer" class="view-details-btn">
-                Get on Google Play
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L18.81,13.12C19.46,12.47 19.46,11.53 18.81,10.88L16.81,8.88L14.41,11.28L16.81,15.12M14.41,12.72L4.69,22.44C4.85,22.48 5.03,22.5 5.21,22.5C5.7,22.5 6.17,22.28 6.5,21.92L14.41,12.72M14.41,11.28L6.5,2.08C6.17,1.72 5.7,1.5 5.21,1.5C5.03,1.5 4.85,1.52 4.69,1.56L14.41,11.28Z"/>
-                </svg>
-              </a>
+              <div class="card-actions-group">
+                <button type="button" class="card-quick-preview-btn" aria-label="Quick Preview of ${app.title}">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                  Quick View
+                </button>
+                <a href="${app.playStoreUrl}" target="_blank" rel="noopener noreferrer" class="view-details-btn" title="Open Google Play Store">
+                  Get on Play Store
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L18.81,13.12C19.46,12.47 19.46,11.53 18.81,10.88L16.81,8.88L14.41,11.28L16.81,15.12M14.41,12.72L4.69,22.44C4.85,22.48 5.03,22.5 5.21,22.5C5.7,22.5 6.17,22.28 6.5,21.92L14.41,12.72M14.41,11.28L6.5,2.08C6.17,1.72 5.7,1.5 5.21,1.5C5.03,1.5 4.85,1.52 4.69,1.56L14.41,11.28Z"/>
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       `;
 
-      // Redirect on card click (excluding direct link click)
+      // Open modal on card click or quick preview button click
       card.addEventListener("click", (e) => {
         if (!e.target.closest(".view-details-btn")) {
-          window.open(app.playStoreUrl, "_blank", "noopener,noreferrer");
+          openModal(app);
         }
       });
 
-      // Random bright glow effect on hover
+      // Hover glow
       card.addEventListener("mouseenter", () => {
         const hue = Math.floor(Math.random() * 360);
         const isDark = document.documentElement.classList.contains("dark");
@@ -1046,18 +1267,28 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  function capitalizeFirst(str) {
-    const labels = {
-      puzzle: "Puzzle Games",
-      board: "Board Games",
-      casual: "Casual Games",
-      arcade: "Arcade Games",
-      adventure: "Adventure Games",
-      education: "Educational Apps",
-      productivity: "Productivity Apps",
-      finance: "Finance Apps"
-    };
-    return labels[str] || (str.charAt(0).toUpperCase() + str.slice(1));
+  // 5. Controls Handlers: Sort & View Toggle
+  if (catalogSort) {
+    catalogSort.addEventListener("change", () => {
+      currentSort = catalogSort.value;
+      renderApps(activeCategory);
+    });
+  }
+
+  if (viewGridBtn && viewListBtn) {
+    viewGridBtn.addEventListener("click", () => {
+      currentView = "grid";
+      viewGridBtn.classList.add("active");
+      viewListBtn.classList.remove("active");
+      appsGrid.classList.remove("list-view");
+    });
+
+    viewListBtn.addEventListener("click", () => {
+      currentView = "list";
+      viewListBtn.classList.add("active");
+      viewGridBtn.classList.remove("active");
+      appsGrid.classList.add("list-view");
+    });
   }
 
   // Filter Buttons Actions
@@ -1068,7 +1299,6 @@ document.addEventListener("DOMContentLoaded", () => {
       activeCategory = btn.getAttribute("data-category");
       renderApps(activeCategory);
       
-      // Smooth scroll target showcase header if not in viewport
       const showcaseSection = document.getElementById("apps");
       if (showcaseSection) {
         const rect = showcaseSection.getBoundingClientRect();
@@ -1079,7 +1309,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Search Form Submit Handler (prevents page reload on enter and triggers search)
+  // Search Handlers
   if (searchForm) {
     searchForm.addEventListener("submit", (e) => {
       e.preventDefault();
@@ -1087,14 +1317,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Search Input Handler
   if (searchInput) {
     searchInput.addEventListener("input", () => {
       renderApps(activeCategory);
     });
   }
 
-  // Clear Search Action
   if (searchClearBtn) {
     searchClearBtn.addEventListener("click", () => {
       searchInput.value = "";
@@ -1127,8 +1355,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function scrollSpy() {
     let currentSection = "";
-    
-    // Check if scrolled to the very bottom of the page
     const isAtBottom = (window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 50;
     
     if (isAtBottom) {
@@ -1173,18 +1399,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Counter animation function counting up from 0 to live apps total (41)
+  // Counter animation function counting up from 0 to live apps total
   function animateLiveAppsCounter() {
-    const counterElements = document.querySelectorAll("#live-apps-counter, #live-apps-count, .stat-apps");
+    const counterElements = document.querySelectorAll("#live-apps-counter, #stat-apps-counter, .stat-apps");
     if (!counterElements || counterElements.length === 0) return;
-    const targetValue = appsData.length || 43;
-    const duration = 3400; // 3.4 seconds smooth count-up animation
+    const targetValue = appsData.length || 45;
+    const duration = 2800;
     const startTime = performance.now();
 
     function updateCounter(currentTime) {
       const elapsed = currentTime - startTime;
       const progress = Math.min(elapsed / duration, 1);
-      // Quartic easing out for ultra-smooth decelerating count
       const easeProgress = 1 - Math.pow(1 - progress, 4);
       const currentVal = Math.floor(easeProgress * targetValue);
 
@@ -1203,8 +1428,10 @@ document.addEventListener("DOMContentLoaded", () => {
     requestAnimationFrame(updateCounter);
   }
 
-  // Init Theme, Scroll Spy, Apps, and Counter Animation
+  // Initialize Theme, Category Counts, Spotlight, Scroll Spy, Apps, and Counter Animation
   initTheme();
+  updateCategoryCounts();
+  renderSpotlight();
   scrollSpy();
   renderApps("all");
   animateLiveAppsCounter();

@@ -1727,3 +1727,756 @@ footer {
     gap: 1.5rem;
   }
 }
+
+
+/* ==========================================================================
+   Famous App Studio Showcase Styles (Supercell, Ketchapp & Voodoo Inspired)
+   ========================================================================== */
+
+/* 1. Studio Stats Highlights Bar */
+.studio-stats-container {
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.studio-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.studio-stat-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-radius: 20px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.studio-stat-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent-primary);
+  box-shadow: 0 12px 25px -8px var(--accent-glow);
+}
+
+.studio-stat-icon {
+  font-size: 2rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  flex-shrink: 0;
+}
+
+.studio-stat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.studio-stat-num {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.studio-stat-lbl {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 992px) {
+  .studio-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .studio-stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 2. Studio Spotlight Section (Supercell Blockbuster Key Visual) */
+.spotlight-section {
+  padding: 2rem 0 3.5rem;
+  position: relative;
+}
+
+.spotlight-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.spotlight-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: var(--card-shadow), 0 0 40px -15px var(--accent-glow);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  position: relative;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.spotlight-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-primary);
+  box-shadow: 0 20px 45px -10px var(--accent-glow);
+}
+
+.spotlight-banner-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.spotlight-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.6));
+  pointer-events: none;
+}
+
+.spotlight-content {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.spotlight-top-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.spotlight-flagship-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 100px;
+  background: linear-gradient(135deg, #f59e0b, #ea580c);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 14px rgba(234, 88, 12, 0.4);
+}
+
+.spotlight-pulse-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+  animation: pulse-dot 1.8s infinite;
+}
+
+.spotlight-app-identity {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.spotlight-app-icon {
+  width: 76px;
+  height: 76px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+}
+
+.spotlight-app-meta h3 {
+  font-size: 1.65rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 0.25rem;
+  color: var(--text-primary);
+}
+
+.spotlight-category-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.spotlight-desc {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.spotlight-chips-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.spotlight-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.75rem;
+  border-radius: 100px;
+}
+
+.spotlight-chip svg {
+  color: #10b981;
+}
+
+.spotlight-actions-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.spotlight-preview-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.4rem;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.spotlight-preview-btn:hover {
+  background: var(--border-color);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+  .spotlight-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 3. Dynamic Category Tab Badges */
+.tab-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.08);
+  color: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.1rem 0.5rem;
+  border-radius: 100px;
+  margin-left: 0.35rem;
+  vertical-align: middle;
+}
+
+.dark .tab-count {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.tab-btn.active .tab-count {
+  background: rgba(255, 255, 255, 0.28);
+  color: #ffffff;
+}
+
+/* 4. Search Keyboard Hint */
+.search-wrapper {
+  position: relative;
+}
+
+.search-kbd-hint {
+  position: absolute;
+  right: 3.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--text-tertiary);
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  line-height: 1;
+  pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  .search-kbd-hint {
+    display: none;
+  }
+}
+
+/* 5. Catalog Toolbar: Counter, Sort Dropdown & View Switcher */
+.catalog-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 0.75rem 1.25rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.catalog-count-info {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.catalog-count-info strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.catalog-controls {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.sort-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sort-label {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  font-weight: 600;
+}
+
+.catalog-select {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 0.4rem 0.85rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.catalog-select:focus {
+  border-color: var(--accent-primary);
+}
+
+.view-toggle {
+  display: flex;
+  align-items: center;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.view-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-tertiary);
+  padding: 0.35rem 0.55rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.view-btn:hover {
+  color: var(--text-primary);
+}
+
+.view-btn.active {
+  background: var(--bg-secondary);
+  color: var(--accent-primary);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* 6. List View Layout */
+.apps-grid.list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.apps-grid.list-view .app-card {
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-radius: 18px;
+  gap: 1.5rem;
+}
+
+.apps-grid.list-view .app-card:hover {
+  transform: translateX(4px);
+}
+
+.apps-grid.list-view .app-card-banner-wrapper {
+  display: none;
+}
+
+.apps-grid.list-view .app-card-inner-new {
+  padding: 0;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 1.5rem;
+}
+
+.apps-grid.list-view .app-card-header-new {
+  flex: 0 0 260px;
+}
+
+.apps-grid.list-view .app-card-content-new {
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.apps-grid.list-view .app-desc {
+  -webkit-line-clamp: 1;
+  max-width: 450px;
+}
+
+.apps-grid.list-view .app-card-footer-new {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+  margin-left: auto;
+  gap: 0.75rem;
+}
+
+@media (max-width: 850px) {
+  .apps-grid.list-view .app-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .apps-grid.list-view .app-card-inner-new {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .apps-grid.list-view .app-card-content-new {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .apps-grid.list-view .app-card-footer-new {
+    margin-left: 0;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+/* 7. Enhanced Card Hover Buttons */
+.card-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.card-quick-preview-btn {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: all 0.2s ease;
+}
+
+.card-quick-preview-btn:hover {
+  background: var(--border-color);
+  color: var(--text-primary);
+}
+
+/* 8. Modern App Detail Modal Sheet */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background-color: var(--modal-overlay);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  padding: 1.5rem;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+}
+
+.modal-container {
+  background: var(--modal-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 28px;
+  width: 100%;
+  max-width: 660px;
+  max-height: 90vh;
+  box-shadow: 0 35px 70px -15px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(30px) scale(0.96);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-overlay.active .modal-container {
+  transform: translateY(0) scale(1);
+}
+
+.modal-banner-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 240px;
+  overflow: hidden;
+  background: var(--bg-secondary);
+}
+
+.modal-banner-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.modal-banner-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.65) 100%);
+}
+
+.modal-content {
+  padding: 2rem 2.25rem 2.25rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.modal-header-block {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1.75rem;
+  margin-top: -3.5rem;
+  position: relative;
+  z-index: 5;
+}
+
+.modal-app-icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 22px;
+  object-fit: cover;
+  border: 3px solid var(--bg-secondary);
+  box-shadow: 0 12px 28px -6px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+  background: var(--bg-secondary);
+}
+
+.modal-title-area {
+  flex-grow: 1;
+}
+
+.modal-title-area h2 {
+  font-size: 1.65rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0.25rem 0;
+  line-height: 1.2;
+}
+
+.modal-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.modal-author {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+}
+
+.accent-text {
+  color: var(--accent-primary);
+  font-weight: 600;
+}
+
+.modal-desc-heading {
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.features-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+  margin-bottom: 1.75rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.feature-check-icon {
+  color: #10b981;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.modal-app-description {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  white-space: pre-line;
+  max-height: 180px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.modal-actions-area {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1px solid var(--border-color);
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.modal-play-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.6rem;
+  border-radius: 100px;
+  font-weight: 700;
+}
+
+.modal-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 100px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* 9. Toast Notification */
+.toast-notification {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  padding: 0.85rem 1.5rem;
+  border-radius: 100px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transform: translateY(100px);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.toast-notification.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .toast-notification {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    left: 1.5rem;
+    justify-content: center;
+  }
+  .modal-container {
+    max-height: 94vh;
+    border-radius: 20px;
+  }
+  .modal-content {
+    padding: 1.5rem;
+  }
+}
