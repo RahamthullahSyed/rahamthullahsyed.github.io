@@ -1,4 +1,5 @@
 # Scratch & Scraper files
+scratch/
 build_clean_data.js
 dump_html.js
 fetch_packages.js
